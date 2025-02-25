@@ -1,0 +1,10 @@
+{
+    "name": "Hello World Chrome Extension",
+    "description": "第一个简单的扩展, 112233111",
+    "version": "1.0",
+    "manifest_version": 3,
+    "action": {
+        "default_popup": "pages/popup.html",
+        "default_icon": "images/icon.png"
+    }
+}
