@@ -1,0 +1,11 @@
+{
+  "name": "vscode plugin demo1",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.47.3"
+    },
+    "activationEvents": [
+        "onStartupFinished"
+    ],
+    "main": "./main.js"
+}
