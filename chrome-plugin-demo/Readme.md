@@ -2,6 +2,7 @@
 
 ## 教程
 [第一个 Hello World](./demo1/Readme.md)   
+[八种展示效果](./demo2/Readme.md)   
 
 ## 参考资料
 ```

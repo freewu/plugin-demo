@@ -1,0 +1,17 @@
+{
+    "name": "Hello World Chrome Extension2",
+    "description": " 八种展示效果",
+    "version": "1.0",
+    "manifest_version": 3,
+    "icons":
+    {
+        "16": "images/icon.png",
+        "48": "images/icon.png",
+        "128": "images/icon.png"
+    },
+
+    "action": {
+        "default_popup": "pages/popup.html",
+        "default_icon": "images/icon.png"
+    }
+}
