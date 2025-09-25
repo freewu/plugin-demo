@@ -1,6 +1,6 @@
 {
-    "name": "Hello World Chrome Extension2",
-    "description": " 八种展示效果",
+    "name": "chrome.action 效果演示",
+    "description": "chrome.action 效果演示",
     "version": "1.0",
     "manifest_version": 3,
     "icons":
@@ -11,7 +11,11 @@
     },
 
     "action": {
-        "default_popup": "pages/popup.html",
+        "default_popup": "pages/action.html",
         "default_icon": "images/icon.png"
+    },
+    
+    "background": {
+        "service_worker": "js/background.js"
     }
 }

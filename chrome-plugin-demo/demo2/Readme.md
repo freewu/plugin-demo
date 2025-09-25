@@ -1,78 +1,94 @@
-# 八种展示效果
+# 右上角 popup 展示 (chrome.action)
 
-## 1. browser_action 浏览器右上角
-### package.json 配置
+> v2 版本 有 browser_action / page_action 两个配置 
+
+## package.json 配置
 ```json
-"action":
 {
-    "default_icon": "images/icon.png",
-    "default_title": "在 browser_action 显示",
-    "default_popup": "pages/popup.html"
+  "action":
+  {
+      "default_icon": "images/icon.png",
+      "default_title": "在 action 显示",
+      "default_popup": "pages/action.html"
+  },
+  "background":
+  {
+      "scripts": ["js/background.js"]
+  }
 }
 
-# default_icon
+```
+## 配置说明
 
+### 图标 default_icon
+```
     图标推荐使用宽高都为 19 像素的图片，更大的图标会被缩小，格式随意，一般推荐png
-    可以调用 setIcon() 方法设置 chrome.browserAction.setIcon({path: "images/icon.png"});
 
-# default_title
+      "default_icon": {
+        "16": "images/icon16.png",
+        "24": "images/icon24.png",
+        "32": "images/icon32.png"
+      }
+        
+    由于具有 1.5 倍或 1.2 倍等不太常见缩放比例的设备越来越普遍，我们建议您为图标提供多种尺寸。
+    这还可以确保您的扩展程序在未来能够应对潜在的图标显示大小变化。
+    不过，如果只提供一种尺寸，也可以将 "default_icon" 键设置为指向单个图标路径的字符串，而不是字典。
 
-    可以调用 setTitle() 方法设置 chrome.browserAction.setTitle({title: "新标题"});
+    可以调用 setIcon() 方法设置 chrome.action.setIcon({path: "images/icon.png"});
+    action.setIcon() API 旨在设置静态图片。请勿为图标使用动画图片。
+```
+### 提示（标题） default_title
+```
+    当用户将鼠标指针悬停在工具栏中的扩展程序图标上时，系统会显示提示或标题。
+    当按钮获得焦点时，屏幕阅读器朗读的无障碍文本中也会包含该文本。
 
-# badge
+    可以调用 setTitle() 方法设置 chrome.action.setTitle({title: "新标题"});
+```
 
+### 徽章 badge
+```
     所谓badge就是在图标上显示一些文本，可以用来更新一些小的扩展状态提示信息。
     因为badge空间有限，所以只支持4个以下的字符（英文4个，中文2个）。
     badge无法通过配置文件来指定，必须通过代码实现，
     设置badge文字和颜色可以分别使用 setBadgeText() 和 setBadgeBackgroundColor()
-        chrome.browserAction.setBadgeText({text: "新"});
-        chrome.browserAction.setBadgeBackgroundColor({color: "#FF0000"});
-
-V3  使用 action 代替 browser_action(V2)
+        chrome.action.setBadgeText({text: "新"});
+        chrome.action.setBadgeBackgroundColor({color: "#FF0000"});
 ```
 
-### 文件
+### 弹出式窗口
+```   
+  可以使用 action.setPopup() 方法动态更新该属性，使其指向其他相对路径
+
+```
+
+## 文件
 ```html
 <html lang="zh-cn">
+  <style>
+    html {
+      width: 300px;
+      height: 300px;
+    }
+  </style>
   <body>
-    <h1>display browser_action</h1>
+    <h1>display action</h1>
     <code>
       {
           "default_icon": "images/icon.png",
-          "default_title": "在 browser_action 显示",
-          "default_popup": "pages/popup.html"
+          "default_title": "在 action 显示",
+          "default_popup": "pages/action.html"
       }
     </code>
   </body>
 </html>
 ```
 
-### 效果
-<img src="./docs/browser_action.png" alt="browser_action" />
+## 效果
+<img src="./docs/action.png" alt="action" />
 
 
-## 2. browser_action 浏览器右上角
-### package.json 配置
+# 资料
 ```
-
-```
-
-[**pageAction(地址栏右侧)**](https://www.notion.so/pageAction-1a46c7bd4608809dad9def05085f29d7?pvs=21)
-
-[**右键菜单**](https://www.notion.so/1a46c7bd460880419019ef9824d06e2b?pvs=21)
-
-[**override(覆盖特定页面)**](https://www.notion.so/override-1a46c7bd460880a9957cf8e8174444b8?pvs=21)
-
-[**devtools(开发者工具)**](https://www.notion.so/devtools-1a46c7bd46088085b7cbd0c5b5a147a3?pvs=21)
-
-[**option(选项页)**](https://www.notion.so/option-1a46c7bd460880bea528e875804e7710?pvs=21)
-
-[**omnibox**](https://www.notion.so/omnibox-1a46c7bd4608800e9fd6f7daef3c847d?pvs=21)
-
-[**桌面通知**](https://www.notion.so/1a46c7bd460880e39bc8d30d2aafa6bd?pvs=21)
-
-## F&Q
-### 扩展页面的中文字符串乱码解决
-```
-把文件编码保存为 utf-16 编码
+https://github.com/GoogleChrome/chrome-extensions-samples/tree/main/api-samples/action
+https://developer.chrome.com/docs/extensions/reference/api/action?hl=zh-cn
 ```
