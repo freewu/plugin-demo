@@ -11,6 +11,7 @@
       "default_title": "在 action 显示",
       "default_popup": "pages/action.html"
   },
+  
   "background":
   {
       "scripts": ["js/background.js"]
@@ -81,6 +82,12 @@
     </code>
   </body>
 </html>
+```
+
+## background.js
+```
+chrome.action.setBadgeText({text: "新"});
+chrome.action.setBadgeBackgroundColor({color: "#FF0000"});
 ```
 
 ## 效果

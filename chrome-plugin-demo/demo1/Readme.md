@@ -103,3 +103,8 @@ cp icon.png ./demo1/images/icon.png
 ### 验证
 <img src=".\docs\3-2.png" style="zoom: 33%;" />   
 <img src=".\docs\3-3.png" style="zoom: 33%;" />
+
+## 资料
+```
+https://developer.chrome.com/docs/extensions/get-started/tutorial/hello-world?hl=zh-cn 
+```
