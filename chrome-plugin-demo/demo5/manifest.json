@@ -1,0 +1,33 @@
+{
+    "name": "侧边栏 chrome.sidePanel 效果演示",
+    "description": "侧边栏 chrome.sidePanel 效果演示",
+    "version": "1.0",
+    "manifest_version": 3,
+    "icons":
+    {
+        "16": "images/icon.png",
+        "48": "images/icon.png",
+        "128": "images/icon.png"
+    },
+
+    "background": {
+        "service_worker": "js/background.js"
+    },
+    "action": {
+        "default_icon": {
+            "16": "images/icon.png",
+            "48": "images/icon.png",
+            "128": "images/icon.png"
+        },
+        "default_title": "Click to open panel"
+    },
+    "side_panel": {
+        "default_path": "pages/sidepanel.html"
+    },
+
+    "permissions": [
+        "sidePanel",
+        "tabs"
+    ]
+    
+}

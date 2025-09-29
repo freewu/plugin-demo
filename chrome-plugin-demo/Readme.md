@@ -6,6 +6,7 @@
 * [右上角 popup 展示 (chrome.action)](./demo2/Readme.md)   
 * [右键菜单 展示 (chrome.contextMenus)](./demo3/Readme.md)   
 * [开发者工具 展示 (chrome.devtools)](./demo4/Readme.md)   
+* [侧边栏 展示 (chrome.sidePanel)](./demo5/Readme.md)   
 
 ## 参考资料
 ```
