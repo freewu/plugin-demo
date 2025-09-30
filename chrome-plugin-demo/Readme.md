@@ -15,10 +15,10 @@
 
 > 和 https://developer.chrome.google.cn/docs/extensions/reference/api/ 左边栏的 API 对应
 
-| Chrome API                         | 教程目录   | 状态      | 备注                 |
+| Chrome API                         | 教程目录   |  完成     | 备注                 |
 | ---------------------------------- | --------- | -------- | -------------------- |
 | accessibilityFeatures              |           | 未开始    |                      |
-| action                             | demo2     | 已完成    | 右上角popup展示        |
+| action                             | demo2     | ✅️       | 右上角popup展示        |
 | alarms                             |           | 未开始    |                      |
 | audio                              |           | 未开始    |                      |
 | bookmarks                          |           | 未开始    |                      |
@@ -26,7 +26,7 @@
 | certificateProvider                |           | 未开始    |                      |
 | commands                           |           | 未开始    |                      |
 | contentSettings                    |           | 未开始    |                      |
-| contextMenus                       | demo3     | 已完成    | 右键菜单展示           |
+| contextMenus                       | demo3     | ✅️      | 右键菜单展示           |
 | cookies                            |           | 未开始    |                      |
 | debugger                           |           | 未开始    |                      |
 | declarativeContent                 |           | 未开始    |                      |
@@ -34,7 +34,7 @@
 | desktopCapture                     |           | 未开始    |                      |
 | devtools.inspectedWindow           |           | 未开始    |                      |
 | devtools.network                   |           | 未开始    |                      |
-| devtools.panels                    | demo4     | 已完成    | 开发者工具展示         |
+| devtools.panels                    | demo4     | ✅️       | 开发者工具展示         |
 | devtools.performance               |           | 未开始    |                      |
 | devtools.recorder                  |           | 未开始    |                      |
 | dns                                |           | 未开始    |                      |
@@ -61,7 +61,7 @@
 | instanceID                         |           | 未开始    |                      |
 | loginState                         |           | 未开始    |                      |
 | management                         |           | 未开始    |                      |
-| notifications                      | demo7     | 已完成    | 通知展示               |
+| notifications                      | demo7     | ✅️       | 通知展示               |
 | offscreen                          |           | 未开始    |                      |
 | omnibox                            |           | 未开始    |                      |
 | pageCapture                        |           | 未开始    |                      |
@@ -79,7 +79,7 @@
 | scripting                          |           | 未开始    |                      |
 | search                             |           | 未开始    |                      |
 | sessions                           |           | 未开始    |                      |
-| sidePanel                          | demo5     | 已完成    | 侧边栏展示             |
+| sidePanel                          | demo5     | ✅️       | 侧边栏展示             |
 | storage                            |           | 未开始    |                      |
 | system.cpu                         |           | 未开始    |                      |
 | system.display                     |           | 未开始    |                      |
@@ -100,7 +100,6 @@
 | webNavigation                      |           | 未开始    |                      |
 | webRequest                         |           | 未开始    |                      |
 | windows                            |           | 未开始    |                      |
-
 
 
 ## 参考资料
