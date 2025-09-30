@@ -9,6 +9,7 @@
 * [侧边栏 展示 (chrome.sidePanel)](./demo5/Readme.md)   
 * [替换 Chrome 网页](./demo6/Readme.md)   
 * [通知 展示 (chrome.notifications)](./demo7/Readme.md)   
+* [闹钟 展示 (chrome.alarms)](./demo8/Readme.md)   
 
 
 ## 计划
@@ -18,15 +19,15 @@
 | Chrome API                         | 教程目录   |  完成     | 备注                 |
 | ---------------------------------- | --------- | -------- | -------------------- |
 | accessibilityFeatures              |           | 未开始    |                      |
-| action                             | demo2     | ✅️       | 右上角popup展示        |
-| alarms                             |           | 未开始    |                      |
+| action                             | demo2     | ✅️       | 右上角popup展示       |
+| alarms                             | demo8     | ✅️       | 闹钟展示              |
 | audio                              |           | 未开始    |                      |
 | bookmarks                          |           | 未开始    |                      |
 | browsingData                       |           | 未开始    |                      |
 | certificateProvider                |           | 未开始    |                      |
 | commands                           |           | 未开始    |                      |
 | contentSettings                    |           | 未开始    |                      |
-| contextMenus                       | demo3     | ✅️      | 右键菜单展示           |
+| contextMenus                       | demo3     | ✅️       | 右键菜单展示           |
 | cookies                            |           | 未开始    |                      |
 | debugger                           |           | 未开始    |                      |
 | declarativeContent                 |           | 未开始    |                      |
@@ -61,7 +62,7 @@
 | instanceID                         |           | 未开始    |                      |
 | loginState                         |           | 未开始    |                      |
 | management                         |           | 未开始    |                      |
-| notifications                      | demo7     | ✅️       | 通知展示               |
+| notifications                      | demo7     | ✅️       | 通知展示              |
 | offscreen                          |           | 未开始    |                      |
 | omnibox                            |           | 未开始    |                      |
 | pageCapture                        |           | 未开始    |                      |
