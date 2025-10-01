@@ -5,11 +5,12 @@
 * [第一个 Hello World](./demo1/Readme.md)   
 * [右上角 popup 展示 (chrome.action)](./demo2/Readme.md)   
 * [右键菜单 展示 (chrome.contextMenus)](./demo3/Readme.md)   
-* [开发者工具 展示 (chrome.devtools)](./demo4/Readme.md)   
+* [开发者工具 展示 (chrome.devtools.*)](./demo4/Readme.md)   
 * [侧边栏 展示 (chrome.sidePanel)](./demo5/Readme.md)   
 * [替换 Chrome 网页](./demo6/Readme.md)   
 * [通知 展示 (chrome.notifications)](./demo7/Readme.md)   
 * [闹钟 展示 (chrome.alarms)](./demo8/Readme.md)   
+* [系统信息 展示 (chrome.system.*)](./demo9/Readme.md)   
 
 
 ## 计划
@@ -21,10 +22,10 @@
 | accessibilityFeatures              |           | 未开始    |                      |
 | action                             | demo2     | ✅️       | 右上角popup展示       |
 | alarms                             | demo8     | ✅️       | 闹钟展示              |
-| audio                              |           | 未开始    |                      |
+| audio                              |           | ❌️       | 仅限 ChromeOS        |
 | bookmarks                          |           | 未开始    |                      |
 | browsingData                       |           | 未开始    |                      |
-| certificateProvider                |           | 未开始    |                      |
+| certificateProvider                |           | ❌️       | 仅限 ChromeOS        |
 | commands                           |           | 未开始    |                      |
 | contentSettings                    |           | 未开始    |                      |
 | contextMenus                       | demo3     | ✅️       | 右键菜单展示           |
@@ -39,39 +40,39 @@
 | devtools.performance               |           | 未开始    |                      |
 | devtools.recorder                  |           | 未开始    |                      |
 | dns                                |           | 未开始    |                      |
-| documentScan                       |           | 未开始    |                      |
+| documentScan                       |           | ❌️       | 仅限 ChromeOS        |
 | dom                                |           | 未开始    |                      |
 | downloads                          |           | 未开始    |                      |
-| enterprise.deviceAttributes        |           | 未开始    |                      |
+| enterprise.deviceAttributes        |           | ❌️       | 仅限 ChromeOS        |
 | enterprise.hardwarePlatform        |           | 未开始    |                      |
-| enterprise.login                   |           | 未开始    |                      |
-| enterprise.networkingAttributes    |           | 未开始    |                      |
-| enterprise.platformKeys            |           | 未开始    |                      |
+| enterprise.login                   |           | ❌️       | 仅限 ChromeOS         |
+| enterprise.networkingAttributes    |           | ❌️       | 仅限 ChromeOS         |
+| enterprise.platformKeys            |           | ❌️       | 仅限 ChromeOS        |
 | events                             |           | 未开始    |                      |
 | extension                          |           | 未开始    |                      |
 | extensionTypes                     |           | 未开始    |                      |
-| fileBrowserHandler                 |           | 未开始    |                      |
-| fileSystemProvider                 |           | 未开始    |                      |
+| fileBrowserHandler                 |           | ❌️       | 仅限 ChromeOS         |
+| fileSystemProvider                 |           | ❌️       | 仅限 ChromeOS         |
 | fontSettings                       |           | 未开始    |                      |
 | gcm                                |           | 未开始    |                      |
 | history                            |           | 未开始    |                      |
 | i18n                               |           | 未开始    |                      |
 | identity                           |           | 未开始    |                      |
 | idle                               |           | 未开始    |                      |
-| input.ime                          |           | 未开始    |                      |
+| input.ime                          |           | ❌️       | 仅限 ChromeOS        |
 | instanceID                         |           | 未开始    |                      |
-| loginState                         |           | 未开始    |                      |
+| loginState                         |           | ❌️       | 仅限 ChromeOS        |
 | management                         |           | 未开始    |                      |
 | notifications                      | demo7     | ✅️       | 通知展示              |
 | offscreen                          |           | 未开始    |                      |
 | omnibox                            |           | 未开始    |                      |
 | pageCapture                        |           | 未开始    |                      |
 | permissions                        |           | 未开始    |                      |
-| platformKeys                       |           | 未开始    |                      |
+| platformKeys                       |           | ❌️       | 仅限 ChromeOS        |
 | power                              |           | 未开始    |                      |
 | printerProvider                    |           | 未开始    |                      |
-| printing                           |           | 未开始    |                      |
-| printingMetrics                    |           | 未开始    |                      |
+| printing                           |           | ❌️       | 仅限 ChromeOS         |
+| printingMetrics                    |           | ❌️       | 仅限 ChromeOS        |
 | privacy                            |           | 未开始    |                      |
 | processes                          |           | 未开始    |                      |
 | proxy                              |           | 未开始    |                      |
@@ -86,7 +87,7 @@
 | system.display                     |           | 未开始    |                      |
 | system.memory                      |           | 未开始    |                      |
 | system.storage                     |           | 未开始    |                      |
-| systemLog                          |           | 未开始    |                      |
+| systemLog                          |           | ❌️       | 仅限 ChromeOS        |
 | tabCapture                         |           | 未开始    |                      |
 | tabGroups                          |           | 未开始    |                      |
 | tabs                               |           | 未开始    |                      |
@@ -95,8 +96,8 @@
 | ttsEngine                          |           | 未开始    |                      |
 | types                              |           | 未开始    |                      |
 | userScripts                        |           | 未开始    |                      |
-| vpnProvider                        |           | 未开始    |                      |
-| wallpaper                          |           | 未开始    |                      |
+| vpnProvider                        |           | ❌️       | 仅限 ChromeOS        |
+| wallpaper                          |           | ❌️       | 仅限 ChromeOS         |
 | webAuthenticationProxy             |           | 未开始    |                      |
 | webNavigation                      |           | 未开始    |                      |
 | webRequest                         |           | 未开始    |                      |

@@ -1,4 +1,4 @@
-# 开发者工具 展示 (chrome.devtools)
+# 开发者工具 展示 (chrome.devtools.*)
 
 > 每打开一个开发者工具窗口，都会创建devtools页面的实例，F12窗口关闭，页面也随着关闭，所以devtools页面的生命周期和devtools窗口是一致的。
 > devtools页面可以访问一组特有的`DevTools API`以及有限的扩展API，这组特有的`DevTools API`只有devtools页面才可以访问，background都无权访问，
