@@ -11,6 +11,7 @@
 * [通知 展示 (chrome.notifications)](./demo7/Readme.md)   
 * [闹钟 展示 (chrome.alarms)](./demo8/Readme.md)   
 * [系统信息 展示 (chrome.system.*)](./demo9/Readme.md)   
+* [标签页 展示 (chrome.tabs)](./demo10/Readme.md)   
 
 
 ## 计划
@@ -83,14 +84,14 @@
 | sessions                           |           | 未开始    |                      |
 | sidePanel                          | demo5     | ✅️       | 侧边栏展示             |
 | storage                            |           | 未开始    |                      |
-| system.cpu                         |           | 未开始    |                      |
-| system.display                     |           | 未开始    |                      |
-| system.memory                      |           | 未开始    |                      |
-| system.storage                     |           | 未开始    |                      |
+| system.cpu                         | demo9     | ✅️       | 查询 CPU 元数据       |
+| system.display                     | demo9     | ✅️       | 查询内存元数据         |
+| system.memory                      | demo9     | ✅️       | 查询存储元数据         |
+| system.storage                     | demo9     | ✅️       | 查询显示元数据         |
 | systemLog                          |           | ❌️       | 仅限 ChromeOS        |
-| tabCapture                         |           | 未开始    |                      |
-| tabGroups                          |           | 未开始    |                      |
-| tabs                               |           | 未开始    |                      |
+| tabCapture                         | demo10    | ✅️       | 与标签页媒体流进行互动  |
+| tabGroups                          | demo10    | ✅️       | 标签页分组系统进行交互  |
+| tabs                               | demo10    | ✅️       | 与标签页系统进行交互    |
 | topSites                           |           | 未开始    |                      |
 | tts                                |           | 未开始    |                      |
 | ttsEngine                          |           | 未开始    |                      |
