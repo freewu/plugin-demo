@@ -59,6 +59,9 @@
 }
 ```
 
+## 效果
+![效果](./docs/debug.png)
+
 ## 资料
 ```
 https://developer.chrome.com/docs/extensions/reference/api/tabs?hl=zh-cn
