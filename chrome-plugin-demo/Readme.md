@@ -12,6 +12,7 @@
 * [闹钟 展示 (chrome.alarms)](./demo8/Readme.md)   
 * [系统信息 展示 (chrome.system.*)](./demo9/Readme.md)   
 * [***标签页 展示 (chrome.tabs)***](./demo10/Readme.md)   
+* [***数据存储 展示 (chrome.storage)***](./demo11/Readme.md)   
 
 
 ## 计划
@@ -83,7 +84,7 @@
 | search                             |           | 未开始    |                      |
 | sessions                           |           | 未开始    |                      |
 | sidePanel                          | demo5     | ✅️       | 侧边栏展示             |
-| storage                            |           | 未开始    |                      |
+| storage                            | demo11    | ✅️       | 数据存储              |
 | system.cpu                         | demo9     | ✅️       | 查询 CPU 元数据       |
 | system.display                     | demo9     | ✅️       | 查询内存元数据         |
 | system.memory                      | demo9     | ✅️       | 查询存储元数据         |

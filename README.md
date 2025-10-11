@@ -9,6 +9,7 @@
 * [闹钟 展示 (chrome.alarms)](./chrome-plugin-demo/demo8/Readme.md)   
 * [系统信息 展示 (chrome.system.*)](./chrome-plugin-demo/demo9/Readme.md)   
 * [***标签页 展示 (chrome.tabs)***](./chrome-plugin-demo/demo10/Readme.md)  
+* [***数据存储 展示 (chrome.storage)***](./demo11/Readme.md)   
 
 # VScode Extension Demo
 * [***第一个 Hello World***](./vscode-extension-demo/demo1/Readme.md)   

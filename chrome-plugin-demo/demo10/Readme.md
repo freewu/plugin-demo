@@ -34,19 +34,6 @@
 ## manifest.json 配置
 ```json
 {
-    "manifest_version": 3,
-    "name": "标签页 展示 (chrome.tabs)",
-    "version": "1.0",
-    "description": "展示 chrome.tabs API",
-    "icons":
-    {
-        "16": "images/icon.png",
-        "48": "images/icon.png",
-        "128": "images/icon.png"
-    },
-    "background": {
-        "service_worker": "js/background.js"
-    },
     "permissions": [
         "tabs",
         "activeTab",
