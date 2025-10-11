@@ -13,6 +13,7 @@
 * [系统信息 展示 (chrome.system.*)](./demo9/Readme.md)   
 * [***标签页 展示 (chrome.tabs)***](./demo10/Readme.md)   
 * [***数据存储 展示 (chrome.storage)***](./demo11/Readme.md)   
+* [电源管理 展示 (chrome.power)](./demo12/Readme.md)   
 
 
 ## 计划
@@ -71,7 +72,7 @@
 | pageCapture                        |           | 未开始    |                      |
 | permissions                        |           | 未开始    |                      |
 | platformKeys                       |           | ❌️       | 仅限 ChromeOS        |
-| power                              |           | 未开始    |                      |
+| power                              | demo12    | ✅️      | 电源管理              |
 | printerProvider                    |           | 未开始    |                      |
 | printing                           |           | ❌️       | 仅限 ChromeOS         |
 | printingMetrics                    |           | ❌️       | 仅限 ChromeOS        |
