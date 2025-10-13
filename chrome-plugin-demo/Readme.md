@@ -14,6 +14,7 @@
 * [***标签页 展示 (chrome.tabs)***](./demo10/Readme.md)   
 * [***数据存储 展示 (chrome.storage)***](./demo11/Readme.md)   
 * [电源管理 展示 (chrome.power)](./demo12/Readme.md)   
+* [搜索 展示 (chrome.search)](./demo13/Readme.md)   
 
 
 ## 计划
@@ -82,7 +83,7 @@
 | readingList                        |           | 未开始    |                      |
 | runtime                            |           | 未开始    |                      |
 | scripting                          |           | 未开始    |                      |
-| search                             |           | 未开始    |                      |
+| search                             | demo13    | ✅️       | 通过默认提供程序进行搜索 |
 | sessions                           |           | 未开始    |                      |
 | sidePanel                          | demo5     | ✅️       | 侧边栏展示             |
 | storage                            | demo11    | ✅️       | 数据存储              |
