@@ -16,6 +16,7 @@
 * [电源管理 展示 (chrome.power)](./demo12/Readme.md)   
 * [搜索 展示 (chrome.search)](./demo13/Readme.md)   
 * [***键盘快捷键 展示 (chrome.commands)***](./demo14/Readme.md)   
+* [获取访问次数最多的网站 展示 (chrome.topSites)](./demo15/Readme.md)   
 
 ## 计划
 
@@ -95,7 +96,7 @@
 | tabCapture                         | demo10    | ✅️       | 与标签页媒体流进行互动  |
 | tabGroups                          | demo10    | ✅️       | 标签页分组系统进行交互  |
 | tabs                               | demo10    | ✅️       | 与标签页系统进行交互    |
-| topSites                           |           | 未开始    |                      |
+| topSites                           | demo15    | ✅️       | 获取访问次数最多的网站  |
 | tts                                |           | 未开始    |                      |
 | ttsEngine                          |           | 未开始    |                      |
 | types                              |           | 未开始    |                      |
