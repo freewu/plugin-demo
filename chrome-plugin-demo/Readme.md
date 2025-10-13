@@ -15,7 +15,7 @@
 * [***数据存储 展示 (chrome.storage)***](./demo11/Readme.md)   
 * [电源管理 展示 (chrome.power)](./demo12/Readme.md)   
 * [搜索 展示 (chrome.search)](./demo13/Readme.md)   
-
+* [***键盘快捷键 展示 (chrome.commands)***](./demo14/Readme.md)   
 
 ## 计划
 
@@ -30,7 +30,7 @@
 | bookmarks                          |           | 未开始    |                      |
 | browsingData                       |           | 未开始    |                      |
 | certificateProvider                |           | ❌️       | 仅限 ChromeOS        |
-| commands                           |           | 未开始    |                      |
+| commands                           | demo14    | ✅️       | 键盘快捷键            |
 | contentSettings                    |           | 未开始    |                      |
 | contextMenus                       | demo3     | ✅️       | 右键菜单展示           |
 | cookies                            |           | 未开始    |                      |
