@@ -18,6 +18,8 @@
 * [***键盘快捷键 展示 (chrome.commands)***](./demo14/Readme.md)   
 * [获取访问次数最多的网站 展示 (chrome.topSites)](./demo15/Readme.md)   
 * [查询和恢复浏览会话中的标签页和窗口 展示 (chrome.sessions)](./demo16/Readme.md)   
+* [***在不同上下文中执行脚本 展示 (chrome.scripting)***](./demo17/Readme.md)   
+
 
 ## 计划
 
@@ -84,7 +86,7 @@
 | proxy                              |           | 未开始    |                      |
 | readingList                        |           | 未开始    |                      |
 | runtime                            |           | 未开始    |                      |
-| scripting                          |           | 未开始    |                      |
+| scripting                          | demo17    | ✅️       | 在不同上下文中执行脚本   |
 | search                             | demo13    | ✅️       | 通过默认提供程序进行搜索 |
 | sessions                           | demo16    | ✅️       | 查询和恢复浏览会话中的标签页和窗口 |
 | sidePanel                          | demo5     | ✅️       | 侧边栏展示             |
