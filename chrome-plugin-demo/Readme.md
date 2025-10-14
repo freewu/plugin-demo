@@ -17,6 +17,7 @@
 * [搜索 展示 (chrome.search)](./demo13/Readme.md)   
 * [***键盘快捷键 展示 (chrome.commands)***](./demo14/Readme.md)   
 * [获取访问次数最多的网站 展示 (chrome.topSites)](./demo15/Readme.md)   
+* [查询和恢复浏览会话中的标签页和窗口 展示 (chrome.sessions)](./demo16/Readme.md)   
 
 ## 计划
 
@@ -74,7 +75,7 @@
 | pageCapture                        |           | 未开始    |                      |
 | permissions                        |           | 未开始    |                      |
 | platformKeys                       |           | ❌️       | 仅限 ChromeOS        |
-| power                              | demo12    | ✅️      | 电源管理              |
+| power                              | demo12    | ✅️       | 电源管理              |
 | printerProvider                    |           | 未开始    |                      |
 | printing                           |           | ❌️       | 仅限 ChromeOS         |
 | printingMetrics                    |           | ❌️       | 仅限 ChromeOS        |
@@ -85,7 +86,7 @@
 | runtime                            |           | 未开始    |                      |
 | scripting                          |           | 未开始    |                      |
 | search                             | demo13    | ✅️       | 通过默认提供程序进行搜索 |
-| sessions                           |           | 未开始    |                      |
+| sessions                           | demo16    | ✅️       | 查询和恢复浏览会话中的标签页和窗口 |
 | sidePanel                          | demo5     | ✅️       | 侧边栏展示             |
 | storage                            | demo11    | ✅️       | 数据存储              |
 | system.cpu                         | demo9     | ✅️       | 查询 CPU 元数据       |
