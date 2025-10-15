@@ -42,11 +42,11 @@
 | declarativeContent                 |           | 未开始    |                      |
 | declarativeNetRequest              |           | 未开始    |                      |
 | desktopCapture                     |           | 未开始    |                      |
-| devtools.inspectedWindow           |           | 未开始    |                      |
-| devtools.network                   |           | 未开始    |                      |
+| devtools.inspectedWindow           | demo4     | 未开始    |                      |
+| devtools.network                   | demo4     | 未开始    |                      |
 | devtools.panels                    | demo4     | ✅️       | 开发者工具展示         |
-| devtools.performance               |           | 未开始    |                      |
-| devtools.recorder                  |           | 未开始    |                      |
+| devtools.performance               | demo4     | 未开始    |                      |
+| devtools.recorder                  | demo4     | 未开始    |                      |
 | dns                                |           | 未开始    |                      |
 | documentScan                       |           | ❌️       | 仅限 ChromeOS        |
 | dom                                |           | 未开始    |                      |

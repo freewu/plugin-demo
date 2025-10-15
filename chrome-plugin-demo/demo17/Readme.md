@@ -28,6 +28,8 @@
 ## 效果
 ![action](./docs/action.png)
 ![debug](./docs/debug.png)
+![effect](./docs/effect.png)
+
 
 ## 资料
 ```markdown
