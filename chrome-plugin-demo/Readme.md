@@ -20,6 +20,7 @@
 * [查询和恢复浏览会话中的标签页和窗口 展示 (chrome.sessions)](./demo16/Readme.md)   
 * [***在不同上下文中执行脚本 展示 (chrome.scripting)***](./demo17/Readme.md)   
 * [阅读清单 展示 (chrome.readingList)](./demo18/Readme.md)   
+* [窗口 展示 (chrome.windows)](./demo19/Readme.md)   
 
 
 ## 计划
@@ -110,7 +111,7 @@
 | webAuthenticationProxy             |           | 未开始    |                      |
 | webNavigation                      |           | 未开始    |                      |
 | webRequest                         |           | 未开始    |                      |
-| windows                            |           | 未开始    |                      |
+| windows                            | demo19    | ✅️       | 在浏览器中创建、修改和重新排列窗口 |
 
 
 ## 参考资料
