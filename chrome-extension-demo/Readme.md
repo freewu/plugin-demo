@@ -27,7 +27,7 @@
 * [从用户的本地个人资料中移除浏览数据 展示 (chrome.browsingData)](./demo21/Readme.md)   
 * [使用模式来指定每项内容设置所影响的网站 展示 (chrome.contentSettings)](./demo22/Readme.md)   
 * [获屏幕、单个窗口或单个标签页的内容 展示 (chrome.desktopCapture)](./demo23/Readme.md)   
-
+* [将标签页另存为 MHTML 展示 (chrome.pageCapture)](./demo24/Readme.md)   
 
 ## 计划
 
@@ -82,7 +82,7 @@
 | notifications                      | demo7     | ✅️       | 通知展示              |
 | offscreen                          |           | 未开始    |                      |
 | omnibox                            |           | 未开始    |                      |
-| pageCapture                        |           | ✅️       | 将标签页另存为 MHTML   |
+| pageCapture                        | demo24    | ✅️       | 将标签页另存为 MHTML   |
 | permissions                        |           | 未开始    |                      |
 | platformKeys                       |           | ❌️       | 仅限 ChromeOS        |
 | power                              | demo12    | ✅️       | 电源管理              |
