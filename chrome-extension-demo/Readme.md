@@ -26,6 +26,8 @@
 * [***查询和修改 Cookie 展示 (chrome.cookies)***](./demo20/Readme.md)   
 * [从用户的本地个人资料中移除浏览数据 展示 (chrome.browsingData)](./demo21/Readme.md)   
 * [使用模式来指定每项内容设置所影响的网站 展示 (chrome.contentSettings)](./demo22/Readme.md)   
+* [获屏幕、单个窗口或单个标签页的内容 展示 (chrome.desktopCapture)](./demo23/Readme.md)   
+
 
 ## 计划
 
@@ -38,16 +40,16 @@
 | alarms                             | demo8     | ✅️       | 闹钟展示              |
 | audio                              |           | ❌️       | 仅限 ChromeOS        |
 | bookmarks                          |           | 未开始    |                      |
-| browsingData                       | demo22    | ✅️       | 从用户的本地个人资料中移除浏览数据 |
+| browsingData                       | demo21    | ✅️       | 从用户的本地个人资料中移除浏览数据 |
 | certificateProvider                |           | ❌️       | 仅限 ChromeOS        |
 | commands                           | demo14    | ✅️       | 键盘快捷键            |
-| contentSettings                    | demo21    | ✅️       | 使用模式来指定每项内容设置所影响的网站 |
+| contentSettings                    | demo22    | ✅️       | 使用模式来指定每项内容设置所影响的网站 |
 | contextMenus                       | demo3     | ✅️       | 右键菜单展示           |
 | cookies                            | demo20    | ✅️       | 查询和修改 Cookie      |
 | debugger                           |           | 未开始    |                      |
 | declarativeContent                 |           | 未开始    |                      |
 | declarativeNetRequest              |           | 未开始    |                      |
-| desktopCapture                     |           | 未开始    |                      |
+| desktopCapture                     | demo23    | ✅️       | 获屏幕、单个窗口或单个标签页的内容|
 | devtools.inspectedWindow           | demo4     | 未开始    |                      |
 | devtools.network                   | demo4     | 未开始    |                      |
 | devtools.panels                    | demo4     | ✅️       | 开发者工具展示         |
@@ -80,7 +82,7 @@
 | notifications                      | demo7     | ✅️       | 通知展示              |
 | offscreen                          |           | 未开始    |                      |
 | omnibox                            |           | 未开始    |                      |
-| pageCapture                        |           | 未开始    |                      |
+| pageCapture                        |           | ✅️       | 将标签页另存为 MHTML   |
 | permissions                        |           | 未开始    |                      |
 | platformKeys                       |           | ❌️       | 仅限 ChromeOS        |
 | power                              | demo12    | ✅️       | 电源管理              |

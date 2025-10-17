@@ -94,9 +94,6 @@
 ## manifest.json 配置
 ```json
 {
-    "background": {
-        "service_worker": "js/background.js"
-    },
     "action": {
         "default_icon": "images/icon.png",
         "default_title": "展示 chrome.contentSettings API 相关功能",
