@@ -25,6 +25,7 @@
 * [***窗口 展示 (chrome.windows)***](./demo19/Readme.md)   
 * [***查询和修改 Cookie 展示 (chrome.cookies)***](./demo20/Readme.md)   
 * [从用户的本地个人资料中移除浏览数据 展示 (chrome.browsingData)](./demo21/Readme.md)   
+* [使用模式来指定每项内容设置所影响的网站 展示 (chrome.contentSettings)](./demo22/Readme.md)   
 
 ## 计划
 
@@ -37,10 +38,10 @@
 | alarms                             | demo8     | ✅️       | 闹钟展示              |
 | audio                              |           | ❌️       | 仅限 ChromeOS        |
 | bookmarks                          |           | 未开始    |                      |
-| browsingData                       | demo21    | ✅️       | 从用户的本地个人资料中移除浏览数据 |
+| browsingData                       | demo22    | ✅️       | 从用户的本地个人资料中移除浏览数据 |
 | certificateProvider                |           | ❌️       | 仅限 ChromeOS        |
 | commands                           | demo14    | ✅️       | 键盘快捷键            |
-| contentSettings                    |           | 未开始    |                      |
+| contentSettings                    | demo21    | ✅️       | 使用模式来指定每项内容设置所影响的网站 |
 | contextMenus                       | demo3     | ✅️       | 右键菜单展示           |
 | cookies                            | demo20    | ✅️       | 查询和修改 Cookie      |
 | debugger                           |           | 未开始    |                      |
