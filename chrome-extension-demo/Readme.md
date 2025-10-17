@@ -28,6 +28,7 @@
 * [使用模式来指定每项内容设置所影响的网站 展示 (chrome.contentSettings)](./demo22/Readme.md)   
 * [获屏幕、单个窗口或单个标签页的内容 展示 (chrome.desktopCapture)](./demo23/Readme.md)   
 * [将标签页另存为 MHTML 展示 (chrome.pageCapture)](./demo24/Readme.md)   
+* [创建和管理屏幕外文档 展示 (chrome.offscreen)](./demo25/Readme.md)   
 
 ## 计划
 
@@ -80,8 +81,8 @@
 | loginState                         |           | ❌️       | 仅限 ChromeOS        |
 | management                         |           | 未开始    |                      |
 | notifications                      | demo7     | ✅️       | 通知展示              |
-| offscreen                          |           | 未开始    |                      |
-| omnibox                            |           | 未开始    |                      |
+| offscreen                          | demo25    | ✅️       | 创建和管理屏幕外文档    |
+| omnibox                            |           | 未开始    | 向 Google Chrome 的地址栏注册关键字 |
 | pageCapture                        | demo24    | ✅️       | 将标签页另存为 MHTML   |
 | permissions                        |           | 未开始    |                      |
 | platformKeys                       |           | ❌️       | 仅限 ChromeOS        |
