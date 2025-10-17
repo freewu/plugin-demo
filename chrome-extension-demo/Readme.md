@@ -1,5 +1,7 @@
 # Chrome 扩展开发
 
+<img src="./book cover.png" />
+
 ## 教程
 
 * [***第一个 Hello World***](./demo1/Readme.md)   
@@ -35,7 +37,7 @@
 | alarms                             | demo8     | ✅️       | 闹钟展示              |
 | audio                              |           | ❌️       | 仅限 ChromeOS        |
 | bookmarks                          |           | 未开始    |                      |
-| browsingData                       |           | 未开始    |                      |
+| browsingData                       | demo21    | ✅️       | 从用户的本地个人资料中移除浏览数据 |
 | certificateProvider                |           | ❌️       | 仅限 ChromeOS        |
 | commands                           | demo14    | ✅️       | 键盘快捷键            |
 | contentSettings                    |           | 未开始    |                      |
