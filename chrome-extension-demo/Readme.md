@@ -20,7 +20,8 @@
 * [查询和恢复浏览会话中的标签页和窗口 展示 (chrome.sessions)](./demo16/Readme.md)   
 * [***在不同上下文中执行脚本 展示 (chrome.scripting)***](./demo17/Readme.md)   
 * [阅读清单 展示 (chrome.readingList)](./demo18/Readme.md)   
-* [窗口 展示 (chrome.windows)](./demo19/Readme.md)   
+* [***窗口 展示 (chrome.windows)***](./demo19/Readme.md)   
+* [***查询和修改 Cookie 展示 (chrome.cookies)***](./demo20/Readme.md)   
 
 
 ## 计划
@@ -39,7 +40,7 @@
 | commands                           | demo14    | ✅️       | 键盘快捷键            |
 | contentSettings                    |           | 未开始    |                      |
 | contextMenus                       | demo3     | ✅️       | 右键菜单展示           |
-| cookies                            |           | 未开始    |                      |
+| cookies                            | demo20    | ✅️       | 查询和修改 Cookie      |
 | debugger                           |           | 未开始    |                      |
 | declarativeContent                 |           | 未开始    |                      |
 | declarativeNetRequest              |           | 未开始    |                      |
