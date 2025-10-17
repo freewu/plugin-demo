@@ -24,7 +24,7 @@
 * [阅读清单 展示 (chrome.readingList)](./demo18/Readme.md)   
 * [***窗口 展示 (chrome.windows)***](./demo19/Readme.md)   
 * [***查询和修改 Cookie 展示 (chrome.cookies)***](./demo20/Readme.md)   
-
+* [从用户的本地个人资料中移除浏览数据 展示 (chrome.browsingData)](./demo21/Readme.md)   
 
 ## 计划
 
