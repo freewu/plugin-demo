@@ -17,7 +17,14 @@
 * [查询和恢复浏览会话中的标签页和窗口 展示 (chrome.sessions)](./chrome-extension-demo/demo16/Readme.md)   
 * [***在不同上下文中执行脚本 展示 (chrome.scripting)***](./chrome-extension-demo/demo17/Readme.md)   
 * [***读取和修改 HTTP 请求和响应 展示 (chrome.webRequest)***](./chrome-extension-demo/demo18/Readme.md)   
-* [***窗口 展示 (chrome.windows)***](./chrome-extension-demo/demo19/Readme.md)   
+* [***窗口 展示 (chrome.windows)***](./chrome-extension-demo/demo19/Readme.md)    
+* [***查询和修改 Cookie 展示 (chrome.cookies)***](./demo20/Readme.md)    
+* [从用户的本地个人资料中移除浏览数据 展示 (chrome.browsingData)](./demo21/Readme.md)    
+* [使用模式来指定每项内容设置所影响的网站 展示 (chrome.contentSettings)](./demo22/Readme.md)    
+* [获屏幕、单个窗口或单个标签页的内容 展示 (chrome.desktopCapture)](./demo23/Readme.md)    
+* [将标签页另存为 MHTML 展示 (chrome.pageCapture)](./demo24/Readme.md)    
+* [创建和管理屏幕外文档 展示 (chrome.offscreen)](./demo25/Readme.md)     
+* [***向地址栏注册关键字 展示 (chrome.omnibox)***](./demo26/Readme.md)    
 
 
 # VScode Extension Demo
