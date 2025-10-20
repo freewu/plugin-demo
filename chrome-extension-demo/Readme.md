@@ -33,7 +33,7 @@
 * [用户隐私管理 展示 (chrome.privacy)](./demo27/Readme.md)    
 * [书签管理 展示 (chrome.bookmarks)](./demo28/Readme.md)    
 * [浏览器历史记录管理 展示 (chrome.history)](./demo29/Readme.md)    
-
+* [***国际化 展示 (chrome.i18n)***](./demo30/Readme.md)    
 
 ## 计划
 
@@ -78,7 +78,7 @@
 | fontSettings                       |           | 未开始    |                      |
 | gcm                                |           | 未开始    |                      |
 | history                            | demo29    | ✅️       | 管理用户的浏览器历史记录 |
-| i18n                               |           | 未开始    |                      |
+| i18n                               | demo30    | ✅️       | 国际化                |
 | identity                           |           | 未开始    |                      |
 | idle                               |           | 未开始    |                      |
 | input.ime                          |           | ❌️       | 仅限 ChromeOS        |
