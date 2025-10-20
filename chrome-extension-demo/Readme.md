@@ -31,7 +31,7 @@
 * [创建和管理屏幕外文档 展示 (chrome.offscreen)](./demo25/Readme.md)    
 * [***向地址栏注册关键字 展示 (chrome.omnibox)***](./demo26/Readme.md)    
 * [用户隐私管理 展示 (chrome.privacy)](./demo27/Readme.md)    
-* [***书签管理 展示 (chrome.bookmarks)***](./demo28/Readme.md)    
+* [书签管理 展示 (chrome.bookmarks)](./demo28/Readme.md)    
 
 
 ## 计划
