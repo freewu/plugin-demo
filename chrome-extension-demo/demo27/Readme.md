@@ -1,4 +1,4 @@
-# 影响用户隐私的功能的使用情况 展示 (chrome.privacy)
+# 用户隐私管理 展示 (chrome.privacy)
 
 > 使用 chrome.privacy API 来控制 Chrome 中可能会影响用户隐私的功能的使用情况。
 > 此 API 依赖于 ChromeSetting 类型的 API 原型来获取和设置 Chrome 的配置项。
@@ -35,26 +35,30 @@
     <h1>chrome.privacy API 演示</h1>
     <label>
         <select id="config">
-          <option value="network.networkPredictionEnabled">网络预测功能</option>
-          <option value="network.webRTCIPHandlingPolicy">WebRTC IP处理策略</option>
-          <option disabled="disabled">------------------</option>
-          <option value="services.alternateErrorPagesEnabled">替代错误页面</option>
-          <option value="services.autofillAddressEnabled">地址自动填充</option>
-          <option value="services.autofillCreditCardEnabled">信用卡自动填充</option>
-          <option value="services.passwordSavingEnabled">密码保存</option>
-          <option value="services.safeBrowsingExtendedReportingEnabled">安全浏览扩展报告</option>
-          <option value="services.spellingServiceEnabled">拼写服务</option>
-          <option value="services.searchSuggestEnabled">搜索建议</option>
-          <option value="services.translationServiceEnabled">翻译服务</option>
-          <option disabled="disabled">------------------</option>
-          <option value="websites.adMeasurementEnabled">广告测量</option>
-          <option value="websites.doNotTrackEnabled">不跟踪功能</option>
-          <option value="websites.fledgeEnabled">FLEDGE（隐私沙箱）</option>
-          <option value="websites.protectedContentEnabled">受保护内容</option>
-          <option value="websites.referrersEnabled">引用来源发送</option>
-          <option value="websites.relatedWebsiteSetsEnabled">相关网站集</option>
-          <option value="websites.thirdPartyCookiesAllowed">第三方Cookie</option>
-          <option value="websites.topicsEnabled">兴趣主题（隐私沙箱）</option>
+            <optgroup label="network">
+                <option value="network.networkPredictionEnabled">网络预测功能</option>
+                <option value="network.webRTCIPHandlingPolicy">WebRTC IP处理策略</option>
+            </optgroup>
+            <optgroup label="services">    
+                <option value="services.alternateErrorPagesEnabled">替代错误页面</option>
+                <option value="services.autofillAddressEnabled">地址自动填充</option>
+                <option value="services.autofillCreditCardEnabled">信用卡自动填充</option>
+                <option value="services.passwordSavingEnabled">密码保存</option>
+                <option value="services.safeBrowsingExtendedReportingEnabled">安全浏览扩展报告</option>
+                <option value="services.spellingServiceEnabled">拼写服务</option>
+                <option value="services.searchSuggestEnabled">搜索建议</option>
+                <option value="services.translationServiceEnabled">翻译服务</option>
+            </optgroup>
+            <optgroup label="websites">
+                <option value="websites.adMeasurementEnabled">广告测量</option>
+                <option value="websites.doNotTrackEnabled">不跟踪功能</option>
+                <option value="websites.fledgeEnabled">FLEDGE（隐私沙箱）</option>
+                <option value="websites.protectedContentEnabled">受保护内容</option>
+                <option value="websites.referrersEnabled">引用来源发送</option>
+                <option value="websites.relatedWebsiteSetsEnabled">相关网站集</option>
+                <option value="websites.thirdPartyCookiesAllowed">第三方Cookie</option>
+                <option value="websites.topicsEnabled">兴趣主题（隐私沙箱）</option>
+            </optgroup>
         </select>
     </label>
     <br/>

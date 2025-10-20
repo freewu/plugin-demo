@@ -1,6 +1,6 @@
 {
     "manifest_version": 3,
-    "name": "影响用户隐私的功能的使用情况 展示 (chrome.privacy)",
+    "name": "用户隐私管理 展示 (chrome.privacy)",
     "version": "1.0",
     "description": "展示 chrome.privacy API",
     "icons":

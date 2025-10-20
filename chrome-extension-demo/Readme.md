@@ -29,7 +29,10 @@
 * [获屏幕、单个窗口或单个标签页的内容 展示 (chrome.desktopCapture)](./demo23/Readme.md)   
 * [将标签页另存为 MHTML 展示 (chrome.pageCapture)](./demo24/Readme.md)   
 * [创建和管理屏幕外文档 展示 (chrome.offscreen)](./demo25/Readme.md)    
-* [***向地址栏注册关键字 展示 (chrome.omnibox)***](./demo26/Readme.md)   
+* [***向地址栏注册关键字 展示 (chrome.omnibox)***](./demo26/Readme.md)    
+* [用户隐私管理 展示 (chrome.privacy)](./demo27/Readme.md)    
+* [***书签管理 展示 (chrome.bookmarks)***](./demo28/Readme.md)    
+
 
 ## 计划
 
@@ -41,7 +44,7 @@
 | action                             | demo2     | ✅️       | 右上角popup展示       |
 | alarms                             | demo8     | ✅️       | 闹钟展示              |
 | audio                              |           | ❌️       | 仅限 ChromeOS        |
-| bookmarks                          |           | 未开始    |                      |
+| bookmarks                          | demo28    | ✅️       | 创建、整理和以其他方式操作书签 |
 | browsingData                       | demo21    | ✅️       | 从用户的本地个人资料中移除浏览数据 |
 | certificateProvider                |           | ❌️       | 仅限 ChromeOS        |
 | commands                           | demo14    | ✅️       | 键盘快捷键            |
@@ -57,7 +60,7 @@
 | devtools.panels                    | demo4     | ✅️       | 开发者工具展示         |
 | devtools.performance               | demo4     | 未开始    |                      |
 | devtools.recorder                  | demo4     | 未开始    |                      |
-| dns                                |           | 未开始    |                      |
+| dns                                |           | ❌️       | 仅在 Chrome Dev 中可用。目前没有将此 API 从开发渠道移至 Chrome 稳定版的计划 |
 | documentScan                       |           | ❌️       | 仅限 ChromeOS        |
 | dom                                |           | 未开始    |                      |
 | downloads                          |           | 未开始    |                      |
@@ -91,8 +94,8 @@
 | printerProvider                    |           | 未开始    |                      |
 | printing                           |           | ❌️       | 仅限 ChromeOS         |
 | printingMetrics                    |           | ❌️       | 仅限 ChromeOS        |
-| privacy                            |           | 未开始    |                      |
-| processes                          |           | 未开始    |                      |
+| privacy                            | demo27    | ✅️       | 控制 Chrome 中可能会影响用户隐私的功能的使用情况 |
+| processes                          |           | ❌️       | 仅在 Chrome Dev 中可用。 与浏览器的进程进行交互  |
 | proxy                              |           | 未开始    |                      |
 | readingList                        | demo18    | ✅️       | 读取和修改阅读清单中的内容 |
 | runtime                            |           | 未开始    |                      |
