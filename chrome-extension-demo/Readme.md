@@ -35,6 +35,8 @@
 * [浏览器历史记录管理 展示 (chrome.history)](./demo29/Readme.md)    
 * [***国际化 展示 (chrome.i18n)***](./demo30/Readme.md)    
 * [可选的权限 展示 (chrome.permissions)](./demo31/Readme.md)    
+* [获取网站图标 展示 (chrome.favicon)](./demo32/Readme.md)    
+
 
 
 ## 计划
@@ -75,6 +77,7 @@
 | events                             |           | 未开始    |                      |
 | extension                          |           | 未开始    |                      |
 | extensionTypes                     |           | 未开始    |                      |
+| favicon                            | demo32    | ✅️       | 获取网站图标           |
 | fileBrowserHandler                 |           | ❌️       | 仅限 ChromeOS         |
 | fileSystemProvider                 |           | ❌️       | 仅限 ChromeOS         |
 | fontSettings                       |           | 未开始    |                      |
