@@ -34,6 +34,8 @@
 * [书签管理 展示 (chrome.bookmarks)](./demo28/Readme.md)    
 * [浏览器历史记录管理 展示 (chrome.history)](./demo29/Readme.md)    
 * [***国际化 展示 (chrome.i18n)***](./demo30/Readme.md)    
+* [可选的权限 展示 (chrome.permissions)](./demo31/Readme.md)    
+
 
 ## 计划
 
@@ -41,7 +43,7 @@
 
 | Chrome API                         | 教程目录   |  完成     | 备注                 |
 | ---------------------------------- | --------- | -------- | -------------------- |
-| accessibilityFeatures              |           | 未开始    |                      |
+| accessibilityFeatures              |           | ❌️       | 仅限 ChromeOS        |
 | action                             | demo2     | ✅️       | 右上角popup展示       |
 | alarms                             | demo8     | ✅️       | 闹钟展示              |
 | audio                              |           | ❌️       | 仅限 ChromeOS        |
@@ -89,7 +91,7 @@
 | offscreen                          | demo25    | ✅️       | 创建和管理屏幕外文档    |
 | omnibox                            | demo26    | ✅️       | 向 Google Chrome 的地址栏注册关键字 |
 | pageCapture                        | demo24    | ✅️       | 将标签页另存为 MHTML   |
-| permissions                        |           | 未开始    |                      |
+| permissions                        | demo31    | ✅️       | 可选的权限            |
 | platformKeys                       |           | ❌️       | 仅限 ChromeOS        |
 | power                              | demo12    | ✅️       | 电源管理              |
 | printerProvider                    |           | 未开始    |                      |
