@@ -174,4 +174,5 @@
 ## 资料
 ```markdown
 https://developer.chrome.com/docs/extensions/reference/api/permissions?hl=zh-cn
+https://developer.chrome.com/docs/extensions/reference/permissions-list?hl=zh-cn
 ```
