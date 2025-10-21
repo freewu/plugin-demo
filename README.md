@@ -32,6 +32,8 @@
 * [可选的权限 展示 (chrome.permissions)](./demo31/Readme.md)    
 * [获取网站图标 展示 (chrome.favicon)](./demo32/Readme.md)    
 * [***检索服务工作线程、返回清单的相关详细信息，以及监听和响应扩展程序生命周期中的事件 展示 (chrome.runtime)***](./demo33/Readme.md)    
+* [观察和分析流量，并拦截、屏蔽或修改正在处理的请求 展示 (chrome.webRequest)](./demo34/Readme.md)    
+* [接收有关正在处理的导航请求的状态的通知 展示 (chrome.webNavigation)](./demo35/Readme.md)    
 
 
 # VScode Extension Demo

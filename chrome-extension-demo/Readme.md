@@ -38,7 +38,7 @@
 * [获取网站图标 展示 (chrome.favicon)](./demo32/Readme.md)    
 * [***检索服务工作线程、返回清单的相关详细信息，以及监听和响应扩展程序生命周期中的事件 展示 (chrome.runtime)***](./demo33/Readme.md)    
 * [观察和分析流量，并拦截、屏蔽或修改正在处理的请求 展示 (chrome.webRequest)](./demo34/Readme.md)    
-
+* [接收有关正在处理的导航请求的状态的通知 展示 (chrome.webNavigation)](./demo35/Readme.md)    
 
 
 ## 计划
@@ -76,9 +76,9 @@
 | enterprise.login                   |           | ❌️       | 仅限 ChromeOS                                                         |
 | enterprise.networkingAttributes    |           | ❌️       | 仅限 ChromeOS                                                         |
 | enterprise.platformKeys            |           | ❌️       | 仅限 ChromeOS                                                         |
-| events                             |           | 未开始    | 监听和响应 Chrome 扩展程序的事件，例如用户交互、系统事件等。                   |
+| events                             | demo35    | ✅️       | 监听和响应 Chrome 扩展程序的事件，例如用户交互、系统事件等。                   |
 | extension                          |           | 未开始    | 管理 Chrome 扩展程序的生命周期，例如安装、更新、删除等操作。                   |
-| extensionTypes                     |           | 未开始    | 定义 Chrome 扩展程序的类型，例如后台脚本、内容脚本、弹出窗口等。                |
+| extensionTypes                     | demo35    | ✅️       | 定义 Chrome 扩展程序的类型，例如后台脚本、内容脚本、弹出窗口等。                |
 | favicon                            | demo32    | ✅️       | 获取网站图标                                                            |
 | fileBrowserHandler                 |           | ❌️       | 仅限 ChromeOS                                                         |
 | fileSystemProvider                 |           | ❌️       | 仅限 ChromeOS                                                         |
@@ -127,8 +127,8 @@
 | userScripts                        |           | 未开始    |                      |
 | vpnProvider                        |           | ❌️       | 仅限 ChromeOS        |
 | wallpaper                          |           | ❌️       | 仅限 ChromeOS         |
-| webAuthenticationProxy             |           | 未开始    |                      |
-| webNavigation                      |           | 未开始    |                      |
+| webAuthenticationProxy             |           | 未开始    | 拦截 Web 身份验证 API (WebAuthn) 请求，以便在本地客户端上处理这些请求         |
+| webNavigation                      | demo35    | ✅️       | 接收有关正在处理的导航请求的状态的通知                                      |
 | webRequest                         | demo34    | ✅️       | 观察和分析流量，并拦截、屏蔽或修改正在处理的请求                              |
 | windows                            | demo19    | ✅️       | 在浏览器中创建、修改和重新排列窗口                                          |
 
