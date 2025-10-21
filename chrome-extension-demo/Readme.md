@@ -37,6 +37,8 @@
 * [可选的权限 展示 (chrome.permissions)](./demo31/Readme.md)    
 * [获取网站图标 展示 (chrome.favicon)](./demo32/Readme.md)    
 * [***检索服务工作线程、返回清单的相关详细信息，以及监听和响应扩展程序生命周期中的事件 展示 (chrome.runtime)***](./demo33/Readme.md)    
+* [观察和分析流量，并拦截、屏蔽或修改正在处理的请求 展示 (chrome.webRequest)](./demo34/Readme.md)    
+
 
 
 ## 计划
@@ -127,8 +129,8 @@
 | wallpaper                          |           | ❌️       | 仅限 ChromeOS         |
 | webAuthenticationProxy             |           | 未开始    |                      |
 | webNavigation                      |           | 未开始    |                      |
-| webRequest                         |           | 未开始    |                      |
-| windows                            | demo19    | ✅️       | 在浏览器中创建、修改和重新排列窗口 |
+| webRequest                         | demo34    | ✅️       | 观察和分析流量，并拦截、屏蔽或修改正在处理的请求                              |
+| windows                            | demo19    | ✅️       | 在浏览器中创建、修改和重新排列窗口                                          |
 
 
 ## 参考资料

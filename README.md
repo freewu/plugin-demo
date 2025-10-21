@@ -25,6 +25,13 @@
 * [将标签页另存为 MHTML 展示 (chrome.pageCapture)](./demo24/Readme.md)    
 * [创建和管理屏幕外文档 展示 (chrome.offscreen)](./demo25/Readme.md)     
 * [***向地址栏注册关键字 展示 (chrome.omnibox)***](./demo26/Readme.md)    
+* [用户隐私管理 展示 (chrome.privacy)](./demo27/Readme.md)    
+* [书签管理 展示 (chrome.bookmarks)](./demo28/Readme.md)    
+* [浏览器历史记录管理 展示 (chrome.history)](./demo29/Readme.md)    
+* [***国际化 展示 (chrome.i18n)***](./demo30/Readme.md)    
+* [可选的权限 展示 (chrome.permissions)](./demo31/Readme.md)    
+* [获取网站图标 展示 (chrome.favicon)](./demo32/Readme.md)    
+* [***检索服务工作线程、返回清单的相关详细信息，以及监听和响应扩展程序生命周期中的事件 展示 (chrome.runtime)***](./demo33/Readme.md)    
 
 
 # VScode Extension Demo
