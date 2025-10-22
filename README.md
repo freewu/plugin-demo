@@ -34,6 +34,9 @@
 * [***检索服务工作线程、返回清单的相关详细信息，以及监听和响应扩展程序生命周期中的事件 展示 (chrome.runtime)***](./demo33/Readme.md)    
 * [观察和分析流量，并拦截、屏蔽或修改正在处理的请求 展示 (chrome.webRequest)](./demo34/Readme.md)    
 * [接收有关正在处理的导航请求的状态的通知 展示 (chrome.webNavigation)](./demo35/Readme.md)    
+* [以编程方式发起、监控、操纵和搜索下载 展示 (chrome.downloads)](./demo36/Readme.md)    
+* [管理 Chrome 字体设置 展示 (chrome.fontSettings)](./demo37/Readme.md)    
+* [检测用户是否空闲，以及在用户空闲时执行操作 展示 (chrome.idle)](./demo38/Readme.md)    
 
 
 # VScode Extension Demo

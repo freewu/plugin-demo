@@ -41,6 +41,8 @@
 * [接收有关正在处理的导航请求的状态的通知 展示 (chrome.webNavigation)](./demo35/Readme.md)    
 * [以编程方式发起、监控、操纵和搜索下载 展示 (chrome.downloads)](./demo36/Readme.md)    
 * [管理 Chrome 字体设置 展示 (chrome.fontSettings)](./demo37/Readme.md)    
+* [检测用户是否空闲，以及在用户空闲时执行操作 展示 (chrome.idle)](./demo38/Readme.md)    
+
 
 
 ## 计划
@@ -89,7 +91,7 @@
 | history                            | demo29    | ✅️       | 管理用户的浏览器历史记录                                                   |
 | i18n                               | demo30    | ✅️       | 国际化                                                                  |
 | identity                           |           | 未开始    | 与用户身份验证和授权相关的 API，例如登录、注销和获取用户信息等。                 |
-| idle                               |           | 未开始    | 检测用户是否空闲，以及在用户空闲时执行操作。                                  |    
+| idle                               | demo38    | ✅️       | 检测用户是否空闲，以及在用户空闲时执行操作。                                  |    
 | input.ime                          |           | ❌️       | 仅限 ChromeOS                                                          |
 | instanceID                         |           | 未开始    |                                                                        |
 | loginState                         |           | ❌️       | 仅限 ChromeOS                                                          |
