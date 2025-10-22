@@ -40,6 +40,7 @@
 * [观察和分析流量，并拦截、屏蔽或修改正在处理的请求 展示 (chrome.webRequest)](./demo34/Readme.md)    
 * [接收有关正在处理的导航请求的状态的通知 展示 (chrome.webNavigation)](./demo35/Readme.md)    
 * [以编程方式发起、监控、操纵和搜索下载 展示 (chrome.downloads)](./demo36/Readme.md)    
+* [管理 Chrome 字体设置 展示 (chrome.fontSettings)](./demo37/Readme.md)    
 
 
 ## 计划
@@ -78,12 +79,12 @@
 | enterprise.networkingAttributes    |           | ❌️       | 仅限 ChromeOS                                                         |
 | enterprise.platformKeys            |           | ❌️       | 仅限 ChromeOS                                                         |
 | events                             | demo35    | ✅️       | 监听和响应 Chrome 扩展程序的事件，例如用户交互、系统事件等。                   |
-| extension                          |           | 未开始    | 管理 Chrome 扩展程序的生命周期，例如安装、更新、删除等操作。                   |
+| extension                          |           | 未开始    | 可供任何扩展程序页面使用的实用程序                                          |
 | extensionTypes                     | demo35    | ✅️       | 定义 Chrome 扩展程序的类型，例如后台脚本、内容脚本、弹出窗口等。                |
 | favicon                            | demo32    | ✅️       | 获取网站图标                                                            |
 | fileBrowserHandler                 |           | ❌️       | 仅限 ChromeOS                                                         |
 | fileSystemProvider                 |           | ❌️       | 仅限 ChromeOS                                                         |
-| fontSettings                       |           | 未开始    | 管理 Chrome 的字体设置                                                   |
+| fontSettings                       | demo37    | ✅️       | 管理 Chrome 的字体设置                                                   |
 | gcm                                |           | 未开始    | 与 Google Cloud Messaging (GCM) 进行通信，用于发送和接收消息。              |
 | history                            | demo29    | ✅️       | 管理用户的浏览器历史记录                                                   |
 | i18n                               | demo30    | ✅️       | 国际化                                                                  |
