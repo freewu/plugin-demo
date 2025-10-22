@@ -39,6 +39,7 @@
 * [***检索服务工作线程、返回清单的相关详细信息，以及监听和响应扩展程序生命周期中的事件 展示 (chrome.runtime)***](./demo33/Readme.md)    
 * [观察和分析流量，并拦截、屏蔽或修改正在处理的请求 展示 (chrome.webRequest)](./demo34/Readme.md)    
 * [接收有关正在处理的导航请求的状态的通知 展示 (chrome.webNavigation)](./demo35/Readme.md)    
+* [以编程方式发起、监控、操纵和搜索下载 展示 (chrome.downloads)](./demo36/Readme.md)    
 
 
 ## 计划
@@ -69,10 +70,10 @@
 | devtools.recorder                  | demo4     | 未开始    | 记录用户在浏览器中的操作，例如点击、滚动和输入文本等事件，以便后续分析和回放       |
 | dns                                |           | ❌️       | 仅在 Chrome Dev 中可用。目前没有将此 API 从开发渠道移至 Chrome 稳定版的计划   |
 | documentScan                       |           | ❌️       | 仅限 ChromeOS                                                         |
-| dom                                |           | 未开始    | 与 DOM 交互，例如修改页面元素、监听事件等                                   | 
-| downloads                          |           | 未开始    | 管理用户的下载操作，例如暂停、恢复、取消下载等                                |  
+| dom                                |           | 未开始    | 适用于扩展程序的特殊 DOM API                                             | 
+| downloads                          | demo36    | ✅️       | 以编程方式发起、监控、操纵和搜索下载                                       |  
 | enterprise.deviceAttributes        |           | ❌️       | 仅限 ChromeOS                                                         |
-| enterprise.hardwarePlatform        |           | ❌️      | 管理企业设备的硬件平台信息，适用于由企业政策安装的扩展程序。                    |
+| enterprise.hardwarePlatform        |           | ❌️       | 管理企业设备的硬件平台信息，适用于由企业政策安装的扩展程序。                    |
 | enterprise.login                   |           | ❌️       | 仅限 ChromeOS                                                         |
 | enterprise.networkingAttributes    |           | ❌️       | 仅限 ChromeOS                                                         |
 | enterprise.platformKeys            |           | ❌️       | 仅限 ChromeOS                                                         |
@@ -125,9 +126,9 @@
 | ttsEngine                          |           | 未开始    |                      |
 | types                              |           | 未开始    |                      |
 | userScripts                        |           | 未开始    |                      |
-| vpnProvider                        |           | ❌️       | 仅限 ChromeOS        |
-| wallpaper                          |           | ❌️       | 仅限 ChromeOS         |
-| webAuthenticationProxy             |           | 未开始    | 拦截 Web 身份验证 API (WebAuthn) 请求，以便在本地客户端上处理这些请求         |
+| vpnProvider                        |           | ❌️       | 仅限 ChromeOS                                                          |
+| wallpaper                          |           | ❌️       | 仅限 ChromeOS                                                          |
+| webAuthenticationProxy             |           | 未开始    | 拦截 Web 身份验证 API (WebAuthn) 请求，以便在本地客户端上处理这些请求          |
 | webNavigation                      | demo35    | ✅️       | 接收有关正在处理的导航请求的状态的通知                                      |
 | webRequest                         | demo34    | ✅️       | 观察和分析流量，并拦截、屏蔽或修改正在处理的请求                              |
 | windows                            | demo19    | ✅️       | 在浏览器中创建、修改和重新排列窗口                                          |
