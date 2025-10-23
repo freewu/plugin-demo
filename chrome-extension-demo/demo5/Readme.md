@@ -76,14 +76,15 @@ chrome.tabs.onUpdated.addListener(async (tabId, info, tab) => {
 });
 ```
 
-## 调试
-![扩展详情入口](docs/debug.png)
-![console输出](docs/debug-1.png)
-
 ## 效果
 ![第一次打开](docs/sidepanel-welcome.png)
 ![非百度网站](docs/sidepanel-main.png)
 ![百度网站](docs/sidepanel-baidu.png)
+![setting](docs/setting.png)
+
+## 调试
+![扩展详情入口](docs/debug.png)
+![console输出](docs/debug-1.png)
 
 
 ## 资料
