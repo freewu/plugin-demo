@@ -42,6 +42,7 @@
 * [以编程方式发起、监控、操纵和搜索下载 展示 (chrome.downloads)](./demo36/Readme.md)    
 * [管理 Chrome 字体设置 展示 (chrome.fontSettings)](./demo37/Readme.md)    
 * [检测用户是否空闲，以及在用户空闲时执行操作 展示 (chrome.idle)](./demo38/Readme.md)    
+* [管理安装式应用和扩展程序 展示 (chrome.management)](./demo39/Readme.md)    
 
 
 
@@ -95,7 +96,7 @@
 | input.ime                          |           | ❌️       | 仅限 ChromeOS                                                          |
 | instanceID                         |           | 未开始    |                                                                        |
 | loginState                         |           | ❌️       | 仅限 ChromeOS                                                          |
-| management                         |           | 未开始    | 管理 Chrome 扩展程序的生命周期，例如安装、更新、删除等操作。                   |
+| management                         | demo39    | ✅️       | 管理安装式应用和扩展程序                                                   |
 | notifications                      | demo7     | ✅️       | 通知展示                                                                |
 | offscreen                          | demo25    | ✅️       | 创建和管理屏幕外文档                                                      |
 | omnibox                            | demo26    | ✅️       | 向 Google Chrome 的地址栏注册关键字                                       |
