@@ -46,6 +46,8 @@
 * [***用户脚本 展示 (chrome.userScripts)***](./demo40/Readme.md)    
 * [***剪贴板 展示 (clipboard)***] todo   
 * [***清单文件格式  (manifest.json)***](./manifest.md)    
+* [***权限  (permissions)***](./permissions.md)    
+
 
 ## 计划
 
