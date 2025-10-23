@@ -1,16 +1,10 @@
 # 通知 展示 (chrome.notifications)
 
+> 使用 chrome.notifications API 通过模板创建丰富通知，并在系统托盘中向用户显示这些通知
+
 ## manifest.json 配置
 ```json
 {
-    "action": {
-        "default_popup": "pages/action.html",
-        "default_title": "通知 展示 (chrome.notifications)",
-        "default_icon": "images/icon.png"
-    },
-    "background": {
-        "service_worker": "js/background.js"
-    },
     "permissions": [
         "notifications"
     ]
@@ -198,8 +192,6 @@ document.getElementById('notify-list-btn').addEventListener('click', () => {
 ![进度类型通知](docs/progress.png)
 ![图片类型通知](docs/image.png)
 ![列表类型通知](docs/list.png)
-
-
 
 ## 资料
 ```
