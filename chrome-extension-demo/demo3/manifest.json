@@ -9,18 +9,14 @@
         "48": "images/icon.png",
         "128": "images/icon.png"
     },
-
     "action": {
-        "default_popup": "pages/action.html",
+        "title": "chrome.contextMenus 效果演示",
         "default_icon": "images/icon.png"
     },
-
-    "permissions": [
-        "contextMenus"
-    ],
-
     "background": {
         "service_worker": "js/background.js"
-    }
-    
+    },
+    "permissions": [
+        "contextMenus"
+    ]
 }

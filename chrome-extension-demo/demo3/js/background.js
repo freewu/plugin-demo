@@ -1,3 +1,9 @@
+// 点击 action 图标时,打开 setting.html
+chrome.action.onClicked.addListener(function (tab) {
+    console.log('点击 action 图标时,打开 setting.html', tab);
+    chrome.tabs.create({ url: "pages/setting.html" });
+});
+
 // 安装扩展椒加入 右键菜单
 chrome.runtime.onInstalled.addListener(function () {
     // 不同的显示位置，不指定默认为: ["page"]
@@ -43,8 +49,9 @@ chrome.runtime.onInstalled.addListener(function () {
 });
 
 // 注册右键点击事件
-chrome.contextMenus.onClicked.addListener(function(info) {
-    console.log(info);
+chrome.contextMenus.onClicked.addListener(function(info,tab) {
+    console.log("点击右键菜单信息",info);
+    console.log("点击右键菜单所在的标签页信息",tab);
     switch (info.menuItemId) {
         case 'radio':
             // Radio item function
@@ -58,11 +65,16 @@ chrome.contextMenus.onClicked.addListener(function(info) {
             // Standard context menu item function
             console.log('Standard context menu item clicked.');
     }
-
-    console.log("选中的字符串 selectionText",   info.selectionText);
-    console.log("选中的链接 linkUrl",   info.linkUrl);
-    console.log("选中的图片 imageUrl",   info.srcUrl);
-    // console.log("选中的视频 videoUrl",   info.videoUrl);
-    // console.log("选中的音频 audioUrl",   info.audioUrl);
-    console.log("配置的 menuItemId",   info.menuItemId);
+    console.log("OnClickData.checked",info.checked); // 复选框或单选项目在点击后的状态
+    console.log("OnClickData.editable",info.editable); // 元素是否可编辑（文本输入、文本区域等）
+    console.log("OnClickData.frameId",info.frameId); // 点击右键菜单的元素的框架的 ID（如果该元素位于框架中）
+    console.log("OnClickData.frameUrl",info.frameUrl); // 点击右键菜单的元素的框架的网址（如果该元素位于框架中）
+    console.log("OnClickData.linkUrl",info.linkUrl); // 如果元素是链接，则为指向的网址。
+    console.log("OnClickData.mediaType",info.mediaType); // 如果上下文菜单是在以下类型的元素上激活的，image | video | audio
+    console.log("OnClickData.menuItemId",info.menuItemId); // 获得点击的菜单项的 ID。
+    console.log("OnClickData.pageUrl",info.pageUrl); // 点击右键菜单的网页的网址。如果点击发生在没有当前页面的情境中（例如在启动器上下文菜单中），则不会设置此属性。
+    console.log("OnClickData.parentMenuItemId",info.parentMenuItemId); // 所点击商品的父 ID（如有）。
+    console.log("OnClickData.selectionText",info.selectionText); // 上下文选择的文本（如有）。 选择中的文本内容
+    console.log("OnClickData.srcUrl",info.srcUrl); // 上下文选择的文本（如有）。 选择中的图片、视频、音频的网址 
+    console.log("OnClickData.wasChecked",info.wasChecked); // 复选框或单选项目在点击前的状态    
 });

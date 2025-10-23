@@ -95,14 +95,16 @@ chrome.contextMenus.onClicked.addListener(function(info) {
 ```
 
 ## 显示效果
-<img src="./docs/page.png" alt="page" width="400" />
-<img src="./docs/action.png" alt="action" width="400" />
-<img src="./docs/image.png" alt="image link" width="400" />
-<img src="./docs/editable.png" alt="editable" width="400" />
+![page](./docs/page.png)
+![action](./docs/action.png)
+![image](./docs/image.png)
+![editable](./docs/editable.png)
+![setting](./docs/setting.png)
 
 ## 调试
-<img src="./docs/debug1.png" alt="debug" />
-<img src="./docs/debug2.png" alt="debug" />
+![debug1](./docs/debug1.png)
+![debug2](./docs/debug2.png)
+
 
 ## 资料
 ```
