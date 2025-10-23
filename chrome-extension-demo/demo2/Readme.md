@@ -2,20 +2,20 @@
 
 > v2 版本 有 browser_action / page_action 两个配置 
 
-## package.json 配置
+## manifest.json 配置
 ```json
 {
-  "action":
-  {
-      "default_icon": "images/icon.png",
-      "default_title": "在 action 显示",
-      "default_popup": "pages/action.html"
-  },
-
-  "background":
-  {
-      "scripts": ["js/background.js"]
-  }
+    "action": {
+        "default_popup": "pages/action.html",
+        "default_icon": "images/icon.png",
+        "default_title": "chrome.action 效果演示"
+    },
+    "background": {
+        "service_worker": "js/background.js"
+    },
+    "permissions": [
+        "tabs"
+    ]
 }
 
 ```
@@ -91,8 +91,8 @@ chrome.action.setBadgeBackgroundColor({color: "#FF0000"});
 ```
 
 ## 效果
-<img src="./docs/action.png" alt="action" />
-
+[action](./docs/action.png)
+[setting](./docs/setting.png)
 
 # 资料
 ```

@@ -95,4 +95,5 @@ document.getElementById('get-config-btn').addEventListener('click', async () => 
 ```markdown
 https://developer.chrome.com/docs/extensions/reference/api/privacy?hl=zh-cn
 https://github.com/GoogleChrome/chrome-extensions-samples/tree/main/api-samples/privacy
+https://developer.chrome.com/docs/extensions/reference/api/types?hl=zh-cn
 ```
