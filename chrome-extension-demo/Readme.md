@@ -43,8 +43,9 @@
 * [管理 Chrome 字体设置 展示 (chrome.fontSettings)](./demo37/Readme.md)    
 * [检测用户是否空闲，以及在用户空闲时执行操作 展示 (chrome.idle)](./demo38/Readme.md)    
 * [管理安装式应用和扩展程序 展示 (chrome.management)](./demo39/Readme.md)    
-
-
+* [***用户脚本 展示 (chrome.userScripts)***](./demo40/Readme.md)    
+* [***剪贴板 展示 (clipboard)***] todo   
+* [***清单文件格式  (manifest.json)***](./manifest.md)    
 
 ## 计划
 
@@ -59,6 +60,7 @@
 | bookmarks                          | demo28    | ✅️       | 创建、整理和以其他方式操作书签                                            |
 | browsingData                       | demo21    | ✅️       | 从用户的本地个人资料中移除浏览数据                                         |
 | certificateProvider                |           | ❌️       | 仅限 ChromeOS                                                         |
+| clipboard                          | demo41    | ✅️       | 剪贴板展示                                                               |
 | commands                           | demo14    | ✅️       | 键盘快捷键                                                             |
 | contentSettings                    | demo22    | ✅️       | 使用模式来指定每项内容设置所影响的网站                                      |
 | contextMenus                       | demo3     | ✅️       | 右键菜单展示                                                           |
@@ -128,8 +130,8 @@
 | topSites                           | demo15    | ✅️       | 获取访问次数最多的网站                                                    |
 | tts                                |           | 未开始    |                      |
 | ttsEngine                          |           | 未开始    |                      |
-| types                              |           | 未开始    |                      |
-| userScripts                        |           | 未开始    |                      |
+| types                              | demo27    | ✅️       | ChromeSetting 类型提供了一组通用函数（get()、set() 和 clear()）事件处理 (onChange)  |
+| userScripts                        | demo40    | ✅️       | 在用户脚本上下文中执行用户脚本                                             |
 | vpnProvider                        |           | ❌️       | 仅限 ChromeOS                                                          |
 | wallpaper                          |           | ❌️       | 仅限 ChromeOS                                                          |
 | webAuthenticationProxy             |           | 未开始    | 拦截 Web 身份验证 API (WebAuthn) 请求，以便在本地客户端上处理这些请求          |
