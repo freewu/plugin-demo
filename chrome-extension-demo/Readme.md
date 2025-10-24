@@ -44,7 +44,7 @@
 * [检测用户是否空闲，以及在用户空闲时执行操作 展示 (chrome.idle)](./demo38/Readme.md)    
 * [管理安装式应用和扩展程序 展示 (chrome.management)](./demo39/Readme.md)    
 * [***用户脚本 展示 (chrome.userScripts)***](./demo40/Readme.md)    
-* [***剪贴板 展示 (clipboard)***] todo   
+* [***剪贴板 展示 (clipboard)***](./demo41/Readme.md)    
 * [***清单文件格式  (manifest.json)***](./manifest.md)    
 * [***权限  (permissions)***](./permissions.md)    
 
