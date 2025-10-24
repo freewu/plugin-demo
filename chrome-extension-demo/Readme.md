@@ -45,6 +45,7 @@
 * [管理安装式应用和扩展程序 展示 (chrome.management)](./demo39/Readme.md)    
 * [***用户脚本 展示 (chrome.userScripts)***](./demo40/Readme.md)    
 * [***剪贴板 展示 (clipboard)***](./demo41/Readme.md)    
+* [可供任何扩展程序页面使用的实用程序 展示 (chrome.extension)](./demo42/Readme.md)    
 * [***清单文件格式  (manifest.json)***](./manifest.md)    
 * [***权限  (permissions)***](./permissions.md)    
 
@@ -78,7 +79,7 @@
 | devtools.recorder                  | demo4     | 未开始    | 记录用户在浏览器中的操作，例如点击、滚动和输入文本等事件，以便后续分析和回放       |
 | dns                                |           | ❌️       | 仅在 Chrome Dev 中可用。目前没有将此 API 从开发渠道移至 Chrome 稳定版的计划   |
 | documentScan                       |           | ❌️       | 仅限 ChromeOS                                                         |
-| dom                                |           | 未开始    | 适用于扩展程序的特殊 DOM API                                             | 
+| dom                                |           | ❌️       | 适用于扩展程序的特殊 DOM API (不知道怎么用，想到在写 demo)                  | 
 | downloads                          | demo36    | ✅️       | 以编程方式发起、监控、操纵和搜索下载                                       |  
 | enterprise.deviceAttributes        |           | ❌️       | 仅限 ChromeOS                                                         |
 | enterprise.hardwarePlatform        |           | ❌️       | 管理企业设备的硬件平台信息，适用于由企业政策安装的扩展程序。                    |
@@ -86,7 +87,7 @@
 | enterprise.networkingAttributes    |           | ❌️       | 仅限 ChromeOS                                                         |
 | enterprise.platformKeys            |           | ❌️       | 仅限 ChromeOS                                                         |
 | events                             | demo35    | ✅️       | 监听和响应 Chrome 扩展程序的事件，例如用户交互、系统事件等。                   |
-| extension                          |           | 未开始    | 可供任何扩展程序页面使用的实用程序                                          |
+| extension                          | demo42    | ✅️       | 可供任何扩展程序页面使用的实用程序                                          |
 | extensionTypes                     | demo35    | ✅️       | 定义 Chrome 扩展程序的类型，例如后台脚本、内容脚本、弹出窗口等。                |
 | favicon                            | demo32    | ✅️       | 获取网站图标                                                            |
 | fileBrowserHandler                 |           | ❌️       | 仅限 ChromeOS                                                         |
