@@ -9,4 +9,5 @@ https://code.visualstudio.com/api/get-started/your-first-extension
 https://blog.haoji.me/vscode-plugin-overview.html
 https://zhuanlan.zhihu.com/p/532031362
 https://github.com/microsoft/vscode-extension-samples
+https://code.visualstudio.com/api
 ```

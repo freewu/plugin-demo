@@ -39,5 +39,5 @@
 * [检测用户是否空闲，以及在用户空闲时执行操作 展示 (chrome.idle)](./demo38/Readme.md)    
 
 
-# VScode Extension Demo
+# VS Code Extension Demo
 * [***第一个 Hello World***](./vscode-extension-demo/demo1/Readme.md)   
