@@ -46,6 +46,7 @@
 * [***用户脚本 展示 (chrome.userScripts)***](./demo40/Readme.md)    
 * [***剪贴板 展示 (clipboard)***](./demo41/Readme.md)    
 * [可供任何扩展程序页面使用的实用程序 展示 (chrome.extension)](./demo42/Readme.md)    
+* [管理 Chrome 的代理设置  展示 (chrome.proxy)](./demo43/Readme.md)    
 * [***清单文件格式  (manifest.json)***](./manifest.md)    
 * [***权限  (permissions)***](./permissions.md)    
 
@@ -114,7 +115,7 @@
 | printingMetrics                    |           | ❌️       | 仅限 ChromeOS                                                          |
 | privacy                            | demo27    | ✅️       | 控制 Chrome 中可能会影响用户隐私的功能的使用情况                             |
 | processes                          |           | ❌️       | 仅在 Chrome Dev 中可用。 与浏览器的进程进行交互                             |
-| proxy                              |           | 未开始    |                                                                        |
+| proxy                              | demo43    | ✅️       | 管理 Chrome 的代理设置                                                   |
 | readingList                        | demo18    | ✅️       | 读取和修改阅读清单中的内容                                                 |
 | runtime                            | demo33    | ✅️       | 检索服务工作线程、返回清单的相关详细信息，以及监听和响应扩展程序生命周期中的事件    |
 | scripting                          | demo17    | ✅️       | 在不同上下文中执行脚本                                                     |  
