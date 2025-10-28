@@ -73,23 +73,24 @@ chrome.notifications.onPermissionLevelChanged.addListener(
 );
 ```
 
-## pages/action.html 代码
+## pages/setting.html 代码
 ```html
 <html lang="zh-cn">
-  <style>
-    html {
-      width: 300px;
-      height: 300px;
-    }
-  </style>
   <body>
     <h1>chrome.notifications API 演示</h1>
     <button id="notify-basic-btn">基本通知</button>
     <button id="notify-progress-btn">进度通知</button>
     <button id="notify-image-btn">图片通知</button>
     <button id="notify-list-btn">列表通知</button>
+    <hr/>
+    <button id="check-permission-btn">检查通知权限</button>
+    <button id="get-all-btn">获取所有通知</button>
+    <hr/>
+    <input id="notification-id-input" type="text" placeholder="输入通知ID" style="width: 400px;"/>
+    <button id="clear-btn">清除指定通知</button>
+    <textarea id="result-container" style="width: 100%; height: 300px;"></textarea>
   </body>
-  <script src="../js/action.js"></script>
+  <script src="../js/setting.js" type="module"></script>
 </html>
 ```
 
@@ -192,6 +193,7 @@ document.getElementById('notify-list-btn').addEventListener('click', () => {
 ![进度类型通知](docs/progress.png)
 ![图片类型通知](docs/image.png)
 ![列表类型通知](docs/list.png)
+![setting](docs/setting.png)
 
 ## 资料
 ```
