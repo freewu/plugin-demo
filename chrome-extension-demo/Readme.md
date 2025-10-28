@@ -47,6 +47,7 @@
 * [***剪贴板 展示 (clipboard)***](./demo41/Readme.md)    
 * [可供任何扩展程序页面使用的实用程序 展示 (chrome.extension)](./demo42/Readme.md)    
 * [管理 Chrome 的代理设置  展示 (chrome.proxy)](./demo43/Readme.md)    
+* [文本转语音(TTS) 展示 (chrome.tts && chrome.ttsEngine)](./demo44/Readme.md)    
 * [***清单文件格式  (manifest.json)***](./manifest.md)    
 * [***权限  (permissions)***](./permissions.md)    
 
@@ -64,7 +65,7 @@
 | bookmarks                          | demo28    | ✅️       | 创建、整理和以其他方式操作书签                                            |
 | browsingData                       | demo21    | ✅️       | 从用户的本地个人资料中移除浏览数据                                         |
 | certificateProvider                |           | ❌️       | 仅限 ChromeOS                                                         |
-| clipboard                          | demo41    | ✅️       | 剪贴板展示                                                               |
+| clipboard                          | demo41    | ✅️       | 剪贴板展示                                                             |
 | commands                           | demo14    | ✅️       | 键盘快捷键                                                             |
 | contentSettings                    | demo22    | ✅️       | 使用模式来指定每项内容设置所影响的网站                                      |
 | contextMenus                       | demo3     | ✅️       | 右键菜单展示                                                           |
@@ -83,7 +84,7 @@
 | dom                                |           | ❌️       | 适用于扩展程序的特殊 DOM API (不知道怎么用，想到在写 demo)                  | 
 | downloads                          | demo36    | ✅️       | 以编程方式发起、监控、操纵和搜索下载                                       |  
 | enterprise.deviceAttributes        |           | ❌️       | 仅限 ChromeOS                                                         |
-| enterprise.hardwarePlatform        |           | ❌️       | 管理企业设备的硬件平台信息，适用于由企业政策安装的扩展程序。                    |
+| enterprise.hardwarePlatform        |           | ❌️       | 管理企业设备的硬件平台信息，适用于由企业政策安装的扩展程序。                   |
 | enterprise.login                   |           | ❌️       | 仅限 ChromeOS                                                         |
 | enterprise.networkingAttributes    |           | ❌️       | 仅限 ChromeOS                                                         |
 | enterprise.platformKeys            |           | ❌️       | 仅限 ChromeOS                                                         |
@@ -91,8 +92,8 @@
 | extension                          | demo42    | ✅️       | 可供任何扩展程序页面使用的实用程序                                          |
 | extensionTypes                     | demo35    | ✅️       | 定义 Chrome 扩展程序的类型，例如后台脚本、内容脚本、弹出窗口等。                |
 | favicon                            | demo32    | ✅️       | 获取网站图标                                                            |
-| fileBrowserHandler                 |           | ❌️       | 仅限 ChromeOS                                                         |
-| fileSystemProvider                 |           | ❌️       | 仅限 ChromeOS                                                         |
+| fileBrowserHandler                 |           | ❌️       | 仅限 ChromeOS                                                          |
+| fileSystemProvider                 |           | ❌️       | 仅限 ChromeOS                                                          |
 | fontSettings                       | demo37    | ✅️       | 管理 Chrome 的字体设置                                                   |
 | gcm                                |           | 未开始    | 与 Google Cloud Messaging (GCM) 进行通信，用于发送和接收消息。              |
 | history                            | demo29    | ✅️       | 管理用户的浏览器历史记录                                                   |
@@ -110,7 +111,7 @@
 | permissions                        | demo31    | ✅️       | 可选的权限                                                              |
 | platformKeys                       |           | ❌️       | 仅限 ChromeOS                                                          |
 | power                              | demo12    | ✅️       | 电源管理                                                                |
-| printerProvider                    |           | ❌️       | 查询由扩展程序控制的打印机、查询其功能以及向这些打印机提交打印作业的事件。          |
+| printerProvider                    |           | ❌️       | 查询由扩展程序控制的打印机、查询其功能以及向这些打印机提交打印作业的事件。         |
 | printing                           |           | ❌️       | 仅限 ChromeOS                                                          |
 | printingMetrics                    |           | ❌️       | 仅限 ChromeOS                                                          |
 | privacy                            | demo27    | ✅️       | 控制 Chrome 中可能会影响用户隐私的功能的使用情况                             |
@@ -132,13 +133,13 @@
 | tabGroups                          | demo10    | ✅️       | 标签页分组系统进行交互                                                    |
 | tabs                               | demo10    | ✅️       | 与标签页系统进行交互                                                      |     
 | topSites                           | demo15    | ✅️       | 获取访问次数最多的网站                                                    |
-| tts                                |           | 未开始    |                      |
-| ttsEngine                          |           | 未开始    |                      |
+| tts                                | demo44    | ✅️       | 播放合成的文字转语音 (TTS)                                                |
+| ttsEngine                          | demo44    | ✅️       | 通过扩展程序实现文本转语音(TTS) 引擎                                        |
 | types                              | demo27    | ✅️       | ChromeSetting 类型提供了一组通用函数（get()、set() 和 clear()）事件处理 (onChange)  |
 | userScripts                        | demo40    | ✅️       | 在用户脚本上下文中执行用户脚本                                             |
 | vpnProvider                        |           | ❌️       | 仅限 ChromeOS                                                          |
 | wallpaper                          |           | ❌️       | 仅限 ChromeOS                                                          |
-| webAuthenticationProxy             |           | 未开始    | 拦截 Web 身份验证 API (WebAuthn) 请求，以便在本地客户端上处理这些请求          |
+| webAuthenticationProxy             |           | ❌️       | 拦截 Web 身份验证 API (WebAuthn) 请求，以便在本地客户端上处理这些请求 (搞不明白)  |
 | webNavigation                      | demo35    | ✅️       | 接收有关正在处理的导航请求的状态的通知                                      |
 | webRequest                         | demo34    | ✅️       | 观察和分析流量，并拦截、屏蔽或修改正在处理的请求                              |
 | windows                            | demo19    | ✅️       | 在浏览器中创建、修改和重新排列窗口                                          |

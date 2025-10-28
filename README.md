@@ -40,6 +40,9 @@
 * [管理安装式应用和扩展程序 展示 (chrome.management)](./demo39/Readme.md)    
 * [***用户脚本 展示 (chrome.userScripts)***](./demo40/Readme.md)    
 * [***剪贴板 展示 (clipboard)***](./demo41/Readme.md)    
+* [可供任何扩展程序页面使用的实用程序 展示 (chrome.extension)](./demo42/Readme.md)    
+* [管理 Chrome 的代理设置  展示 (chrome.proxy)](./demo43/Readme.md)    
+* [文本转语音(TTS) 展示 (chrome.tts && chrome.ttsEngine)](./demo44/Readme.md)    
 * [***清单文件格式  (manifest.json)***](./manifest.md)    
 * [***权限  (permissions)***](./permissions.md)    
 
