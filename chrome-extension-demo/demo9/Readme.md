@@ -103,9 +103,8 @@ chrome.system.display.getInfo((info) => {
 ```
 
 ## 效果
+![setting](./docs/setting.png)
 ![输出](./docs/debug.png)
-
-
 
 ## 资料
 ```

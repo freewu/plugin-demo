@@ -12,6 +12,10 @@
     "background": {
         "service_worker": "js/background.js"
     },
+    "action": {
+        "default_title": "展示 chrome.system.* API", 
+        "default_icon": "images/icon.png"
+    },
     "permissions": [
         "system.cpu",
         "system.memory",
