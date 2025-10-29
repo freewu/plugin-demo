@@ -1,3 +1,9 @@
+// 点击 action 图标时,打开 setting.html
+chrome.action.onClicked.addListener(function (tab) {
+    console.log('点击 action 图标时,打开 setting.html', tab);
+    chrome.tabs.create({ url: "pages/setting.html" });
+});
+
 // 插件安装完成后，创建一个闹钟
 chrome.runtime.onInstalled.addListener(async ({ reason }) => {
     if (reason !== 'install') { return; }
@@ -24,17 +30,7 @@ chrome.alarms.onAlarm.addListener((alarm) => {
     //     "periodInMinutes": 1,
     //     "scheduledTime": 1759218545676.386
     // }
-    console.log("闹钟名称:", alarm.name);
-    console.log("间隔时间(分):", alarm.periodInMinutes);
-    console.log("触发时间:", new Date(alarm.scheduledTime).toLocaleString());
-
-    // 获取所有闹钟
-    chrome.alarms.getAll((alarms) => {
-        console.log("当前所有闹钟:", alarms);
-    });
-    // 清除闹钟 
-    chrome.alarms.clear(alarm.name);
-    // 清除所有闹钟
-    chrome.alarms.clearAll(); 
-    console.log("清除闹钟成功");
+    console.log("闹钟名称:", alarm.name); // 相应闹钟的名称。
+    console.log("间隔时间(分):", alarm.periodInMinutes); // 如果不为 null，则表示闹钟为重复闹钟，将在 periodInMinutes 分钟后再次触发
+    console.log("触发时间:", new Date(alarm.scheduledTime).toLocaleString()); // 相应闹钟计划触发的时间，以自纪元以来的毫秒数表示（例如 Date.now() + n）。出于性能方面的考虑，闹钟可能会延迟任意时长。
 });

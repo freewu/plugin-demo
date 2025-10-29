@@ -9,6 +9,10 @@
         "48": "images/icon.png",
         "128": "images/icon.png"
     },
+    "action": {
+        "default_title": "闹钟展示 (chrome.alarms)",
+        "default_icon": "images/icon.png"
+    },
     "background": {
         "service_worker": "js/background.js"
     },
