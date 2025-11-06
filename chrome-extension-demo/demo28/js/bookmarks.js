@@ -79,31 +79,52 @@ document.getElementById('get-children-btn').addEventListener('click', () => {
 
 // 点击创建书签
 document.getElementById('create-btn').addEventListener('click', () => {
-    let obj = {};
+    let createDetails = {
+        // index: 0, // 索引
+        // parentId: "1", // 父文件夹ID 默认为“其他书签”文件夹。
+        // title: "新书签", // 书签标题 
+        // url: "https://www.baidu.com", // 书签网址  为空则创建在为文件夹
+    };
     const index = document.getElementById('create-index-input').value;
     if (index) {
-        obj.index = parseInt(index);
+        createDetails.index = parseInt(index);
     }
     const parentId = document.getElementById('create-parentId-input').value;
     if (parentId) {
-        obj.parentId = parentId;
+        createDetails.parentId = parentId;
     }
     const title = document.getElementById('create-title-input').value;
     if (title) {
-        obj.title = title;
+        createDetails.title = title;
     }
     const url = document.getElementById('create-url-input').value;
     if (url) {
-        obj.url = url;
+        createDetails.url = url;
     }
     if (!title) {
         document.getElementById('result-container').value = '请输入书签标题';
         return;
     }
-    console.log('点击创建书签:', obj);
-    chrome.bookmarks.create(obj, (bookmarkNode) => {
-        console.log('bookmarkNode', bookmarkNode);
-        document.getElementById('result-container').value = JSON.stringify(bookmarkNode, null, 2);
+    console.log('点击创建书签:', createDetails);
+    chrome.bookmarks.create(createDetails, (node) => {
+        console.log('node', node);
+        console.log('BookmarkTreeNode.children', node.children); // BookmarkTreeNode[] 相应节点的子节点的有序列表
+        console.log('BookmarkTreeNode.dateAdded', node.dateAdded); // number 相应节点创建的时间，以自纪元 (new Date(dateAdded)) 以来的毫秒数表示。
+        console.log('BookmarkTreeNode.dateGroupModified', node.dateGroupModified); // number 相应文件夹的内容上次更改的时间（以自纪元以来经过的毫秒数表示）。
+        console.log('BookmarkTreeNode.dateLastUsed', node.dateLastUsed); // number 相应节点上次打开的时间（以自纪元以来经过的毫秒数表示）。未针对文件夹设置。
+        // bookmarks-bar 内容显示在浏览器窗口顶部的文件夹。
+        // other 在所有平台的完整书签列表中显示的书签。
+        // mobile 用户移动设备上通常可用的书签，但可通过扩展程序或在书签管理器中修改。
+        // managed 如果受监督用户的系统管理员或监护人已配置书签，则可能会显示此顶级文件夹。
+        console.log('BookmarkTreeNode.folderType', node.folderType); // 如果存在，则表示浏览器添加的文件夹，用户或扩展程序无法修改。如果此节点未设置 unmodifiable 属性，则可以修改子节点。如果节点可由用户和扩展程序修改，则省略此属性（默认）。
+        console.log('BookmarkTreeNode.id', node.id); // 节点的唯一标识符。ID 在当前个人资料中是唯一的，即使在浏览器重启后仍保持有效。
+        console.log('BookmarkTreeNode.index', node.index); // 相应节点在其父文件夹中的从零开始的位置。
+        console.log('BookmarkTreeNode.parentId', node.parentId); // 父文件夹的 id。根节点可省略。 
+        console.log('BookmarkTreeNode.syncing', node.syncing); // 相应节点是否已由浏览器与用户的远程账号存储空间同步。这可用于区分同一 FolderType 的账号级版本和仅限本地版本。现有节点上此属性的值可能会发生变化，例如，因用户操作而发生变化。
+        console.log('BookmarkTreeNode.title', node.title); // 节点显示的文本
+        console.log('BookmarkTreeNode.unmodifiable', node.unmodifiable); // 指明相应节点不可修改的原因。managed 值表示相应节点是由系统管理员或受监督用户的监护人配置的。如果节点可由用户和扩展程序修改，则省略此属性（默认）。
+        console.log('BookmarkTreeNode.url', node.url); // 用户点击书签时导航到的网址。对于文件夹，此属性会被省略
+        document.getElementById('result-container').value = JSON.stringify(node, null, 2);
     });
 });
 
