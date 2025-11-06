@@ -3,7 +3,7 @@ document.getElementById("get-badge-background-color-btn").addEventListener("clic
     chrome.action.getBadgeBackgroundColor({
         // tabId: chrome.runtime.id, // 要查询状态的标签页的 ID。如果未指定任何标签页，则返回非标签页专用状态。
     }, function(color) {
-        console.log("徽章背景颜色:", color);
+        console.log("徽章背景颜色:", color); // [number, number, number, number] RGBA 数组
         document.getElementById("result-container").value = "徽章背景颜色:" +JSON.stringify(color,null,2);
     });
 });
@@ -67,10 +67,9 @@ document.getElementById("get-title-btn").addEventListener("click", function() {
 
 // 返回与扩展程序操作相关的用户指定设置
 document.getElementById("get-setting-btn").addEventListener("click", function() {
-    chrome.action.getUserSettings({
-        // tabId: chrome.runtime.id, // 要查询状态的标签页的 ID。如果未指定任何标签页，则返回非标签页专用状态。
-    }, function(setting) {
-        console.log("操作设置:", setting);
+    chrome.action.getUserSettings(function(setting) {
+        console.log("操作设置:", setting); 
+        console.log("UserSettings.isOnToolbar:", setting.isOnToolbar); // isOnToolbar扩展程序的 action 图标是否显示在浏览器窗口的顶级工具栏上（即，用户是否已“固定”该扩展程序）
         document.getElementById("result-container").value = "操作设置:" +JSON.stringify(setting,null,2);
     });
 });
@@ -188,7 +187,7 @@ document.getElementById("set-popup1-btn").addEventListener("click", function() {
 document.getElementById("set-icon-btn").addEventListener("click", function() {
     chrome.action.setIcon({
         path: "../images/icon.png", // 要设置为操作图标的图片文件的路径。如果为空字符串，则清除图标。
-        // imageData: imageData, // 要设置为操作图标的画布元素的像素数据。如果为空字符串，则清除图标。
+        // imageData: {} // 要设置的图标，可以是 ImageData 对象，也可以是表示图标的字典 {size -> ImageData}。如果图标指定为字典，则会根据屏幕的像素密度选择要使用的实际图片。
         // tabId: chrome.runtime.id, // 要设置状态的标签页的 ID。如果未指定任何标签页，则设置所有标签页的状态。
     }).then(() => {
         console.log("action 图标已设置");
